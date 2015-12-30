@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit"/>
+    <link href="../css/public.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/center.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/center.js"></script>
+
+
+    <title>index</title>
+</head>
+<body>
+<div class="centertopbox">
+    <div class="top">
+
+        <ul class="centernav">
+            <li><a href="###">个人空间</a></li>
+            <li class="on"><a href="###">研修中心</a></li>
+            <li><a href="###">课程中心</a></li>
+            <li><a href="###">微课中心</a></li>
+            <li><a href="###">资源中心</a></li>
+            <li><a href="###">校本管理</a></li>
+        </ul>
+        <div class="exit"><a href="###"></a></div>
+        <div class="setup"><a href="###"></a>
+            <ul class="subdiv">
+                <li><a href="###">修改密码</a></li>
+                <li><a href="###">修改头像</a></li>
+                <li><a href="###">修改个人信息</a></li>
+            </ul>
+        </div>
+        <div class="msg"><a href="###" class="shuzi">12</a></div>
+
+
+    </div>
+</div>
+
+<div class="top60"></div>
+<div class="container yxzx02">
+
+
+    <div class="allbox">
+        <div class="step-yx">
+            <ul>
+                <li class="start start02">创建活动</li>
+                <li class="route ">添加步骤</li>
+                <li class="end ">发布活动</li>
+            </ul>
+        </div>
+        <div class="yxnav">
+
+            <div class="coltit">研修活动</div>
+            <ul class="subnav">
+                <li class="on"><a href="###">创建活动</a></li>
+            </ul>
+
+        </div>
+
+        <div class="boxbg02">
+            <div class="lanmutit05">步骤一备注：总结类</div>
+
+            <!--<div class="titleinfo02">-->
+                <!--<div class="info1">研修组名称:</div>-->
+                <!--<div class="info2"><input type="text"  style="width: 1000px;"></div>-->
+            <!--</div>-->
+            <div class="boxbg01c">
+
+                <div class="yxgroupinfo02">
+                    <div class="info1 redp">活动主题</div>
+                    <div class="info3">
+
+                        <input type="text"  style="width: 840px;" placeholder="四则运算第一课时">
+
+
+                    </div>
+                </div>
+                <div class="yxgroupinfo02">
+                    <div class="info1 redp">周期</div>
+                    <div class="info3">
+
+                        <input type="text"  style="width: 400px;"> 至 <input type="text"  style="width: 400px;">
+                    </div>
+                </div>
+
+                <div class="yxgroupinfo02">
+                    <div class="info1 redp">活动描述</div>
+                    <div class="info2">
+                    <textarea name="textarea" id="textarea" cols="45" rows="5"
+                              placeholder="活动描述"></textarea>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+                </div>
+                <div class="yxgroupinfo02">
+                    <div class="info1 redp">参与教师</div>
+                    <div class="info2">
+
+                        <input class="xzlsbtn"
+                               type="button"
+                               value="选择参与教师" onclick="showdivjs1();"/>
+
+
+                    </div>
+                </div>
+                <div class="yxgroupinfo02">
+                    <div class="info1 redp">主备教师</div>
+                    <div class="info2">
+
+                        <input class="xzlsbtn"
+                               type="button"
+                               value="选择主备教师" onclick="showdivjs2();"/>
+
+
+                    </div>
+                </div>
+
+                <div class="yxgroupinfo02">
+                    <div class="info1 redp">指导专家</div>
+                    <div class="info3">
+                        <div class="more08"><a href="###">添加更多专家</a></div>
+                        <div class="addteacherbox">
+
+                            <input type="text" style="width: 820px; margin-bottom: 10px;" placeholder="请输入专家姓名">
+                            <input type="text" style="width: 820px;" placeholder="请输入专家单位">
+                            <a href="javascript:;" class="a-upload">请上传专家图片
+                                <input type="file" name="" id="">
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="yxgroupinfo02">
+                    <div class="info1 redp">参与教师</div>
+                    <div class="info2">
+                        <div class="shaixuan">
+                            <a href="###" class="xuanx">全员</a>
+                            <a href="###" class="xuanx">主备</a>
+                      </div>
+                    </div>
+
+                </div>
+
+
+                <div class="yxgroupinfo02">
+                    <div class="info1 redp">上传活动图片</div>
+                    <div class="info2">
+
+                        <div class=""><a href="javascript:;" class="a-upload">选择文件
+                            <input type="file" name="" id="">
+                        </a></div>
+
+                        <div class="lh40 f-color-r">请您上传一张活动图片展示在网站上。要求图片尺寸为：288*162px，png格式</div>
+                    </div>
+                </div>
+                <div class="yxgroupinfo02">
+                    <div class="info1">组标签</div>
+                    <div class="info2">
+                    <textarea name="textarea" id="textarea" cols="45" rows="5"
+                              placeholder="请在这里用文字描述您的组标签，例如：“语文"></textarea>
+                        <input type="button" value="添加标签" class="btnc05">
+
+                    </div>
+                    <div class="labeltab">
+                        <ul>
+                            <li>标签</li>
+                            <li>标签标签标签</li>
+                            <li>标签</li>
+                            <li>标签标签</li>
+                            <li>标签标签标签</li>
+                            <li>标签</li>
+                            <li>标签标签标签标签</li>
+                            <li>标签</li>
+                        </ul>
+
+                    </div>
+                    <div class="clear"></div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="boxbg02c">
+            <input type="button" class="btnc01b" value="保存并进入下一步">
+
+        </div>
+    </div>
+</div>
+<div class="footerbox">
+    <div class="footer">
+        <div class="pic"><a href="../index.html"><img src="../images/common/b_logon02.png"/></a>
+        </div>
+        <div class="wenb">
+            <p class="f-size20 mb10">全品优师有限公司</p>
+
+            <p>Copyright © 2011-2015 . Yiqizuoye Corporation. All Rights Reserved.</p>
+
+            <p>ICP证沪B2-20150026沪ICP备xxxxxxx号</p>
+        </div>
+    </div>
+</div>
+
+<!--弹出参与教师-->
+<div id="mntbbg" class="mntbbg"></div>
+<div id="popjs1" class="mntbshow popjs">
+    <div class="mnTitle">从本组教师中选择参与教师
+        <button class="btnclose" type="button" value="Close" onclick="hidedivjs1();"></button>
+    </div>
+    <div class="jspopbox">
+        <input type="button" class="btnc01c" style="position: absolute; right: 270px; top:50px;" value=" 查询"/>
+        <div class="yxgroupinfo03">
+            <div class="info1">姓名</div>
+            <div class="info3 ">
+
+                <input type="text"  style="width:260px;">
+
+
+            </div>
+            <div class="info1">用户账户</div>
+            <div class="info3">
+
+                <input type="text"  style="width: 260px;">
+
+
+            </div>
+        </div>
+        <div class="yxgroupinfo">
+            <div class="info1">地域</div>
+            <div class="info2">
+
+                <div class="selectbox">
+
+
+                    <div class="nice-select" name="nice-select">
+                        <input type="text" value="省" readonly>
+                        <ul>
+                            <li data-value="1">相关链接1</li>
+                            <li data-value="2">相关链接2</li>
+                            <li data-value="3">相关链接3</li>
+                            <li data-value="4">相关链接4</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="selectbox">
+
+
+                    <div class="nice-select" name="nice-select">
+                        <input type="text" value="地区" readonly>
+                        <ul>
+                            <li data-value="1">相关链接1</li>
+                            <li data-value="2">相关链接2</li>
+                            <li data-value="3">相关链接3</li>
+                            <li data-value="4">相关链接4</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="selectbox">
+
+
+                    <div class="nice-select" name="nice-select">
+                        <input type="text" value="县区" readonly>
+                        <ul>
+                            <li data-value="1">相关链接1</li>
+                            <li data-value="2">相关链接2</li>
+                            <li data-value="3">相关链接3</li>
+                            <li data-value="4">相关链接4</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <table class="tablea02">
+            <tr>
+                <th></th>
+                <th>用户名</th>
+                <th>
+                    <div>姓名
+                    </div>
+                </th>
+                <th>
+                    <div>角色
+                    </div>
+                </th>
+                <th>地址</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+            </tr>
+        </table>
+
+        <div class="clear"></div>
+        <div class="quotes">
+            <span class="disabled">&lt;</span>
+            <span class="current">1</span>
+            <a href="#?page=2">2</a>
+            <a href="#?page=3">3</a>
+            <a href="#?page=4">4</a>
+            <a href="#?page=5">5</a>
+
+            ...
+            <a href="#?page=19">19</a>
+            <a href="#?page=20">20</a>
+            <a href="#?page=2">&gt;</a>
+        </div>
+        <div class="clear"></div>
+        <div style="text-align: center"><input type="button" value="确定" class="btnc01b" /> <input type="button" value="保存" class="btnc01d"/></div>
+
+    </div>
+</div>
+<!--end-->
+<!--弹出主备教师-->
+<div id="popjs2" class="mntbshow popjs">
+    <div class="mnTitle">从本组教师中选择主备教师
+        <button class="btnclose" type="button" value="Close" onclick="hidedivjs2();"></button>
+    </div>
+    <div class="jspopbox">
+        <input type="button" class="btnc01c" style="position: absolute; right: 270px; top:50px;" value=" 查询"/>
+        <div class="yxgroupinfo03">
+            <div class="info1">姓名</div>
+            <div class="info3 ">
+
+                <input type="text"  style="width:260px;">
+
+
+            </div>
+            <div class="info1">用户账户</div>
+            <div class="info3">
+
+                <input type="text"  style="width: 260px;">
+
+
+            </div>
+        </div>
+        <div class="yxgroupinfo">
+            <div class="info1">地域</div>
+            <div class="info2">
+
+                <div class="selectbox">
+
+
+                    <div class="nice-select" name="nice-select">
+                        <input type="text" value="省" readonly>
+                        <ul>
+                            <li data-value="1">相关链接1</li>
+                            <li data-value="2">相关链接2</li>
+                            <li data-value="3">相关链接3</li>
+                            <li data-value="4">相关链接4</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="selectbox">
+
+
+                    <div class="nice-select" name="nice-select">
+                        <input type="text" value="地区" readonly>
+                        <ul>
+                            <li data-value="1">相关链接1</li>
+                            <li data-value="2">相关链接2</li>
+                            <li data-value="3">相关链接3</li>
+                            <li data-value="4">相关链接4</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="selectbox">
+
+
+                    <div class="nice-select" name="nice-select">
+                        <input type="text" value="县区" readonly>
+                        <ul>
+                            <li data-value="1">相关链接1</li>
+                            <li data-value="2">相关链接2</li>
+                            <li data-value="3">相关链接3</li>
+                            <li data-value="4">相关链接4</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <table class="tablea02">
+            <tr>
+                <th></th>
+                <th>用户名</th>
+                <th>
+                    <div>姓名
+                    </div>
+                </th>
+                <th>
+                    <div>角色
+                    </div>
+                </th>
+                <th>地址</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>wangxiaoxiao</td>
+                <td>王晓晓</td>
+                <td>学员</td>
+                <td>新疆维吾尔自治区新疆维吾尔自治区</td>
+            </tr>
+        </table>
+
+        <div class="clear"></div>
+        <div class="quotes">
+            <span class="disabled">&lt;</span>
+            <span class="current">1</span>
+            <a href="#?page=2">2</a>
+            <a href="#?page=3">3</a>
+            <a href="#?page=4">4</a>
+            <a href="#?page=5">5</a>
+
+            ...
+            <a href="#?page=19">19</a>
+            <a href="#?page=20">20</a>
+            <a href="#?page=2">&gt;</a>
+        </div>
+        <div class="clear"></div>
+        <div style="text-align: center"><input type="button" value="确定" class="btnc01b" /> <input type="button" value="保存" class="btnc01d"/></div>
+
+    </div>
+</div>
+<!--end-->
+
+</body>
+
+
+
+<script src="../js/slide.js"></script>
+
+<script>
+    $('.ck-slide').ckSlide({
+        autoPlay: true
+    });
+
+    $('#demoslide01').flexslider({
+        animation: "slide",
+        direction: "horizontal",
+        easing: "swing"
+    });
+
+    $('[name="nice-select"]').click(function (e) {
+        $('[name="nice-select"]').find('ul').hide();
+        $(this).find('ul').show();
+        e.stopPropagation();
+    });
+    $('[name="nice-select"] li').hover(function (e) {
+        $(this).toggleClass('on');
+        e.stopPropagation();
+    });
+    $('[name="nice-select"] li').click(function (e) {
+        var val = $(this).text();
+        $(this).parents('[name="nice-select"]').find('input').val(val);
+        $('[name="nice-select"] ul').hide();
+        e.stopPropagation();
+    });
+    $(document).click(function () {
+        $('[name="nice-select"] ul').hide();
+    });
+
+
+
+</script>
+<script type="text/javascript">
+
+
+    function showdivjs1() {
+        document.getElementById("mntbbg").style.display = "block";
+        document.getElementById("popjs1").style.display = "block";
+
+    }
+    function hidedivjs1() {
+        document.getElementById("mntbbg").style.display = 'none';
+        document.getElementById("popjs1").style.display = 'none';
+    }
+    function showdivjs2() {
+        document.getElementById("mntbbg").style.display = "block";
+        document.getElementById("popjs2").style.display = "block";
+
+    }
+    function hidedivjs2() {
+        document.getElementById("mntbbg").style.display = 'none';
+        document.getElementById("popjs2").style.display = 'none';
+    }
+</script>
+
+</html>

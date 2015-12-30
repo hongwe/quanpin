@@ -1,0 +1,86 @@
+﻿@charset "utf-8";
+
+/*重定义*/
+
+/* html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, code, del, em, img, strong, dl, dt, dd, ol, ul, li, form, label, table, tbody, tfoot, tr, th, td,input,button, input, textarea { margin: 0; */
+
+/* padding: 0; */
+
+html{font-size:12px; font-family:"Microsoft Yahei", sans-serif; }
+body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td,table{margin:0;padding:0;}
+input{ font-family:"Microsoft Yahei", sans-serif;}
+
+/*清浮动*/
+.clear {display:block;*zoom:1; }
+.clear:after { clear: both; display: block; visibility: hidden; overflow: hidden; height: 0; content: ""; }
+
+button{ cursor:pointer;}
+a{ cursor:pointer;}
+/*让em不是斜体*/
+em { font-style: normal; }
+input[type=button]{ cursor: pointer; }
+input[type=submit]{ cursor: pointer; }
+
+/*去项目标点*/
+ol,ul { list-style: none; }
+li{ float:left;}
+/*初始表格*/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*让IE6的eval不颤抖*/
+body { _background-image: url(about:blank); _background-attachment: fixed; }
+
+/*定义标题*/
+h1, h2, h3, h4, h5, h6 { font-size: 12px; }
+
+/*让文本框聚焦没有黄色边框,且不能改变大小*/
+input, textarea { outline: none; border: 1px #c5c5c5 solid; font-size:100%; resize: none; }
+
+/*定义连接颜色*/
+a { outline: none; text-decoration: none;}
+a:hover { text-decoration: none; }
+a:active {text-decoration: none; }
+a:focus { text-decoration: none; }
+
+/*让文字换行,且单词断词*/
+p { overflow:hidden; word-wrap:break-word; word-break:break-all; }
+
+/*让图片没有边框,垂直居中(解决图片有下间隙问题)*/
+img { border: 0; vertical-align: middle; }
+.b-color-shui { background-color: #7a7070 !important; }
+/*定义一些显示状态*/
+.none { display: none; }
+.inline { display: inline; }
+.block { display: block; }
+
+
+/*定义一些字体*/
+.font12{ font-size: 12px;}
+.font14{ font-size: 14px;}
+.font16{ font-size: 16px;}
+.font18{ font-size: 18px;}
+.font20{ font-size: 20px;}
+.fontw700{ font-weight: 700;}
+.fontw100{ font-weight: 100;}
+.fontwn{ font-weight:  normal;}
+.tal{ text-align: left;}
+.tar{ text-align: right;}
+.tac{ text-align: center;}
+
+.w99b {width: 99%;}
+.w95b {width: 95%;}
+.w75b {width: 75%;}
+.w70b {width: 70%;}
+.w35b {width: 35%;}
+.w55b {width: 55%;}
+.w360 {width: 360px;}
+.h20 { height: 20px;}
+.h30 { height: 30px;}
+
+/*定义一些距离*/
+.margint10{margin-top:10px;}
+.margint20{margin-top:20px;}
+
+/*定义一些字体颜色*/
+.red{ color: #ff0000;}
+.green{ color: green;}

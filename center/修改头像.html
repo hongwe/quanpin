@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit"/>
+    <link href="../css/public.css" rel="stylesheet" type="text/css"/>
+
+    <link href="../css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/center.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/center.js"></script>
+
+    <title>index</title>
+</head>
+<body>
+<div class="centertopbox">
+    <div class="top">
+
+        <ul class="centernav">
+            <li class="on"><a href="###">个人空间</a></li>
+            <li><a href="###">研修中心</a></li>
+            <li><a href="###">课程中心</a></li>
+            <li><a href="###">微课中心</a></li>
+            <li><a href="###">资源中心</a></li>
+            <li><a href="###">校本管理</a></li>
+        </ul>
+        <div class="exit"><a href="###"></a></div>
+        <div class="setup"><a href="###"></a>
+            <ul class="subdiv">
+                <li><a href="###" id="btnshow" onclick="showdiv(); " class="mntbbth">修改密码</a></li>
+                <li><a href="###" id="btnshow2" onclick="showdivtx(); " class="mntbbth">修改头像</a></li>
+                <li><a href="###" >修改个人信息</a></li>
+            </ul>
+        </div>
+        <div class="msg"><a href="###" class="shuzi">12</a></div>
+
+
+    </div>
+</div>
+
+<div class="top60"></div>
+<div class="container">
+
+    <div style="min-height: 600px;">
+        <button class="mntbbth" 　id="btnshow" onclick="showdiv();">修改密码</button>
+        <button class="mntbbth" 　id="btnshow2" onclick="showdivtx();">修改头像</button>
+    </div>
+</div>
+<div class="footerbox">
+    <div class="footer">
+        <div class="pic">
+            <a href="../index.html"><img src="../images/common/b_logon02.png"/></a>
+        </div>
+        <div class="wenb">
+            <p class="f-size20 mb10">全品优师有限公司</p>
+
+            <p>Copyright © 2011-2015 . Yiqizuoye Corporation. All Rights Reserved.</p>
+
+            <p>ICP证沪B2-20150026沪ICP备xxxxxxx号</p>
+        </div>
+    </div>
+</div>
+<!--弹出1-->
+<div id="mntbbg" class="mntbbg"></div>
+<div id="mntbshow" class="mntbshow">
+    <div class="mnTitle">修改密码
+        <button class="btnclose" type="button" value="Close" onclick="hidediv();"></button>
+    </div>
+    <div class="mnneir">
+        <div class="xgmm">
+            <div class="info1"><label><span class='f-color-r'>* </span>原密码：</label><input type="password" class="w310" placeholder="请输入原密码"><span class="jieshicuowu no">输入错误。</span></div>
+            <div class="info1"><label><span class='f-color-r'>* </span>新密码：</label><input type="password" class="w310" placeholder="请输入新密码"><span class="jieshicuowu">输入错误。</span></div>
+            <div class="info1"><label><span class='f-color-r'>* </span>确认密码：</label><input type="password" class="w310" placeholder="请输入确认密码"><span class="jieshicuowu">输入错误。</span></div>
+            <div class="info1"><label>&nbsp;</label><input type="button" class="btnc05" value="提交">
+                <input type="button" class="btnc02" value="取消"></div>
+        </div>
+    </div>
+</div>
+
+<!--end-->
+<!--弹出2-->
+<div id="mntbshow2" class="mntbshow mntbshow2">
+    <div class="mnTitle">修改头像
+        <button class="btnclose" type="button" value="Close" onclick="hidedivtx();"></button>
+    </div>
+   <iframe src="tx.html" width="900" height="550"  scrolling="auto" frameborder="0"></iframe>
+</div>
+
+<!--end-->
+</body>
+<script type="text/javascript">
+
+    function test_item(n) {
+        var menu = document.getElementById("N_tab");
+        var menuli = menu.getElementsByTagName("li");
+        for (var i = 0; i < menuli.length; i++) {
+            menuli[i].className = "";
+            document.getElementById("I_tab" + i).className = "no";
+            document.getElementById("I_tab" + n).className = "content";
+        }
+        menuli[n].className = "yes";
+    }
+    function showdiv() {
+        document.getElementById("mntbbg").style.display = "block";
+        document.getElementById("mntbshow").style.display = "block";
+
+    }
+    function hidediv() {
+        document.getElementById("mntbbg").style.display = 'none';
+        document.getElementById("mntbshow").style.display = 'none';
+
+    }
+    function showdivtx() {
+        document.getElementById("mntbbg").style.display = "block";
+        document.getElementById("mntbshow2").style.display = "block";
+
+    }
+    function hidedivtx() {
+        document.getElementById("mntbbg").style.display = 'none';
+        document.getElementById("mntbshow2").style.display = 'none';
+    }
+</script>
+<script src="../js/slide.js"></script>
+
+<script>
+    $('.ck-slide').ckSlide({
+        autoPlay: true
+    });
+
+    $('#demoslide01').flexslider({
+        animation: "slide",
+        direction: "horizontal",
+        easing: "swing"
+    });
+
+</script>
+
+
+</html>
