@@ -961,14 +961,14 @@
 
 
 
-.listyxz { margin-top: 20px;}
-.listyxz .myyx-title{ width: 16px; height: 116px; font-size: 16px; color: #fff; float: left; padding: 17px; margin-left: 10px; }
-.listyxz ul{ float: left;}
+.listyxz { margin-top: 20px; position: relative;margin-left: 60px;}
+.listyxz .myyx-title{ width: 16px; height: 116px; font-size: 16px; color: #fff;  padding: 17px; position: absolute;left: -50px; }
+
 .listyxz li{ width: 192px; height: 150px; border: 1px solid;margin-left: 40px; margin-bottom: 20px;}
 .listyxz li:hover{ box-shadow: 2px 2px 2px #ddd;}
 .listyxz  a{ width: 192px; height: 150px; display: block;}
-.listyxz .myyx-name{ color: #333; font-size: 22px;text-align: center; line-height: 50px;}
-.listyxz .myyx-col{ color: #999; font-size: 16px; text-align: center; line-height: 30px;}
+.listyxz .myyx-name{ color: #333; font-size: 18px;text-align: center; line-height: 25px;height: 44px; overflow: hidden; padding: 10px 20px 10px 20px;}
+.listyxz .myyx-col{ color: #999; font-size: 16px; text-align: center; line-height: 25px;}
 
 .zu01 li{ border: 1px solid #caedff; border-radius: 3px;}
 .zu02 li{ border: 1px solid #ffe1c5; border-radius: 3px;}
