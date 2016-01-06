@@ -993,10 +993,10 @@
 .listyxgc { margin-top: 20px; position: relative;}
 .listyxgc .myyx-title{ width: 16px; height: 124px; font-size: 16px; color: #fff; float: left; padding:30px 17px; margin-left: 10px;  }
 .listyxgc ul{ float: left;}
-.listyxgc li{ width: 118px; height: 80px; border: 1px solid;margin-left: 20px; margin-bottom: 20px;}
+.listyxgc li{ width: 108px; height: 70px; border: 1px solid;margin-left: 20px; margin-bottom: 20px; padding: 5px 5px;}
 .listyxgc li:hover{ box-shadow: 2px 2px 2px #ddd;}
-.listyxgc  a{ width: 119px; height: 80px; display: block;}
-.listyxgc .myyx-name{ color: #333; font-size: 22px;text-align: center; line-height:50px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap; width: 100px; margin: auto; }
+.listyxgc  a{ width:108px; height: 70px; display: block;}
+.listyxgc .myyx-name{ color: #333; font-size: 18px;text-align: center; line-height:35px;overflow: hidden;   height: 70px;}
 .listyxgc .myyx-col{ color: #999; font-size: 16px; text-align: center; line-height: 30px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap; width: 100px; margin: auto;}
 
 .zu04 .myyx-title{ background:#01dfad;}
