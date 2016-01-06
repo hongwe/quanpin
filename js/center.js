@@ -69,6 +69,11 @@ $(function () {
         $(this).find(".wkpicmask").toggle();
     });
 
+    //$('#buzhoupx01').find('dl').first().find(".px-up").hide();
+    //$('#buzhoupx01').find('dl').last().find(".px-down").hide();
+    //$('#buzhoupx02').find('dl').first().find(".px-up").hide();
+    //$('#buzhoupx02').find('dl').last().find(".px-down").hide();
+
 
 })
 
@@ -305,3 +310,40 @@ $(document).on('click', '.yxlbar', function () {
 
 });
 
+//$(document).on('click', '.px-up', function () {
+//
+//
+//    $('#buzhoupx01').find('dl').first().find(".px-up").hide();
+//    //$('#buzhoupx01').find('dl:not(:first)').find(".px-up").show();
+//    //$('#buzhoupx01').find('dl:not(:first)').find(".px-down").show();
+//
+//
+//});
+//
+//$(document).on('click', '.px-down', function () {
+//
+//    $('#buzhoupx01').find('dl').last().find(".px-down").hide();
+//    //$('#buzhoupx01').find('dl:not(:last)').find(".px-up").show();
+//    //$('#buzhoupx01').find('dl:not(:last)').find(".px-down").show();
+//
+//
+//});
+//
+$(document).on('click', '.zhankai02', function () {
+
+    $(this).removeClass('zhankai02');
+    $(this).addClass('zhankai');
+    $(this).parent().find('.buzhounr').slideUp(200);
+    $(this).attr('title','展开');
+
+
+});
+$(document).on('click', '.zhankai', function () {
+
+    $(this).removeClass('zhankai');
+    $(this).addClass('zhankai02');
+    $(this).parent().find('.buzhounr').slideDown(200);
+    $(this).attr('title','收起');
+
+
+});

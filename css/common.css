@@ -2480,6 +2480,26 @@ input[type=checkbox] {
     background: url("../images/yxzx/xuanze2.png") 0 20px no-repeat;
 }
 
+.xuanze-e {
+    display: none;
+
+}
+
+.xuanze-e + .xuanze-dnr {
+    margin-left: 65px;
+    background: url("../images/yxzx/xuanze3.png") 0 0 no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+.xuanze-e:checked + .xuanze-dnr {
+    background: url("../images/yxzx/xuanze4.png") 0 0 no-repeat;
+}
+
+
+
 .selectbox-a {
     width: 110px;
     height: 40px;
