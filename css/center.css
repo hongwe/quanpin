@@ -746,6 +746,8 @@
 .yxgroupinfo{ clear: both; min-height: 50px; width: 660px; float: left; }
 .yxgroupinfo .info1{ width: 90px; float: left; font-size: 14px; line-height: 40px; text-align: right; padding-right: 20px;}
 .yxgroupinfo .info2{ width: 550px; float: left;position: relative;}
+.yxgroupinfo .info2 input[disabled="true"]{ margin-right: 10px; padding: 10px 10px;   height: 20px; border: 1px #e7e7e7 solid; border-radius: 2px; font-size: 16px; color: #999; width: 139px;}
+.neirongedit span{ line-height: 40px; padding-right: 10px;}
 .yxgroupinfo .info3{ width: 550px; float: left;position: relative;}
 .yxgroupinfo .info2 textarea{ width: 540px;  height: 90px; padding: 10px; border: 1px solid #ddd; border-radius: 3px; font-family:"Microsoft Yahei", sans-serif;}
 .yxgroupinfo .info3 textarea{ width: 540px;  height: 90px; padding: 10px; border: 1px solid #ddd; border-radius: 3px;font-family:"Microsoft Yahei", sans-serif;}
