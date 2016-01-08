@@ -371,13 +371,13 @@
 .zonebox01 .beikeinfo02 .booklistleft .book a:hover{ color: #999;}
 .zonebox01 .beikeinfo02 .booklistright{float: left; padding: 18px; width: 590px; min-height: 400px;border-left: 1px solid #dddddd; }
 .zonebox01 .beikeinfo02 .booklistright .book{ margin: 10px 0; width: 590px;  font-size: 14px; }
-.zonebox01 .beikeinfo02 .booklistright .book .booktit{  position: relative; background: #f8f9fa; font-size: 16px;  line-height: 36px;   }
+.zonebox01 .beikeinfo02 .booklistright .book .booktit{  position: relative; background: #f8f9fa; font-size: 16px;  line-height: 36px;  clear: both; margin: 10px 0; float: left; }
 
 
-.zonebox01 .beikeinfo02 .booklistright .book .booktit .zj{  float: left; display: block;   width: 470px; background: #666666; color: #fff; text-indent: 1em;  overflow:hidden;text-overflow:ellipsis;white-space: nowrap; height: 36px;}
+.zonebox01 .beikeinfo02 .booklistright .book .booktit .zj{  float: left; display: block;   width: 580px; background: #666666; color: #fff; text-indent: 1em;  overflow:hidden;text-overflow:ellipsis;white-space: nowrap; height: 36px;}
 .zonebox01 .beikeinfo02 .booklistright .book .booktit .titnr{display: block;  overflow:hidden; width: 350px;text-overflow:ellipsis;white-space: nowrap; line-height: 36px; }
-.zonebox01 .beikeinfo02 .booklistright .book .coltit{ position: relative;  padding-left: 35px;line-height: 48px; }
-.zonebox01 .beikeinfo02 .booklistright .book .coltit .titnr{display: block; overflow:hidden; width: 425px;text-overflow:ellipsis;white-space: nowrap;line-height: 48px; }
+.zonebox01 .beikeinfo02 .booklistright .book .coltit{ position: relative;  padding-left: 35px;line-height: 38px;  clear: both; margin-top:0px; }
+.zonebox01 .beikeinfo02 .booklistright .book .coltit .titnr{display: block; overflow:hidden; width: 425px;text-overflow:ellipsis;white-space: nowrap;line-height: 38px; }
 .zonebox01 .beikeinfo02 .booklistright .book .yijian{ position: absolute; top:0; right: 10px; z-index: 100;}
 
 .lanmutit { float: left; margin-bottom: 60px; padding-left: 20px;  width: 500px; height: 26px; border-left: 8px #ef8000 solid; font-size: 26px; line-height: 26px;}
