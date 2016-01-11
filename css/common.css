@@ -2966,6 +2966,9 @@ table th div {
 .main .boxzone01 {
     position: relative;
 }
+.main .boxzone02 {
+    position: relative; background: #fff;
+}
 
 .main .boxzone01 .leftbox {
     float: left;
@@ -4152,3 +4155,19 @@ table th div {
 .sharebox .shejiao .jiathisbox02{ display: block; padding: 10px; background: #fff; margin-top: 20px;}
 .sharebox .shejiao .sj04{background: url("../images/shejiaotag.png") no-repeat 0 -90px; padding-left: 20px; line-height: 30px; margin-right: 20px; cursor: pointer;  }
 .sharebox .shejiao .sj05{background: url("../images/shejiaotag.png") no-repeat 0 -118px; padding-left: 20px; line-height: 20px; margin-right: 20px;  }
+
+
+.kcseacher-jg{ font-size: 14px; margin:20px 0; border-bottom: 1px solid #ddd; height: 30px;}
+.allkcsx{}
+.allkcsx ul{ clear: both; font-size: 14px;}
+.allkcsx ul div{ float: left; color: #999;}
+.allkcsx ul li{height: 32px; margin-right: 10px;}
+.allkcsx ul li a{  color: #333; display: block; padding: 3px 8px;border: 1px solid #fff; }
+.allkcsx ul li a:hover{color: #f00; border: 1px solid #f00;}
+.allkcsx ul .on a{  color: #f00; border: 1px solid #f00;}
+
+.seacher-jg02{ width: 560px; padding: 10px 10px; float: left; background: #fff; margin: 10px; }
+.seacher-jg02 img{ width: 240px; height: 135px; float: left; margin-right: 20px;}
+.seacher-jg02 ul{ width: 300px; height: 135px; float: left;}
+.seacher-jg02 ul li{  float: none; height: 28px; font-size: 16px; color: #999; overflow: hidden;text-overflow:ellipsis;white-space: nowrap; width: 300px;}
+.seacher-jg02 ul li a{  color: #333; font-size: 18px; }

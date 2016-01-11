@@ -136,3 +136,10 @@ $(document).on('click', '.shoucbtned', function () {
         'title':'点击收藏'
     });
 });
+$(document).on('click', '.allkcsx li', function () {
+
+    $(this).parent().find('li').removeClass('on')
+    $(this).addClass('on')
+
+
+});

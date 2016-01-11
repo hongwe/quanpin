@@ -1073,14 +1073,8 @@
 .kczx-kc .kczx-kcinfo .kczx-kcinfod{ width: 360px; color: #999; height: 20px; line-height: 20px; float: left; clear: both;overflow: hidden;text-overflow:ellipsis;white-space: nowrap; }
 .kczx-kc .tmshuqian-l{ background: url("../images/a01.png") no-repeat; width: 31px;height: 41px;opacity:0.8;filter:alpha(opacity=80);position: absolute;left: -5px; top:10px; color: #fff; font-size: 15px; padding: 5px 20px;}
 
-.allkcsx{}
-.allkcsx ul{ clear: both; font-size: 14px;}
-.allkcsx ul div{ float: left; color: #999;}
-.allkcsx ul li{height: 32px; margin-right: 10px;}
-.allkcsx ul li a{  color: #333; display: block; padding: 3px 8px;border: 1px solid #fff; }
-.allkcsx ul li a:hover{color: #f00; border: 1px solid #f00;}
-.allkcsx ul .on a{  color: #f00; border: 1px solid #f00;}
-.kcseacher-jg{ font-size: 14px; margin:20px 0; border-bottom: 1px solid #ddd; height: 30px;}
+
+
 
 .yxlbar{cursor: pointer;}
 .yxlbarbox{display: none;}
