@@ -4171,3 +4171,23 @@ table th div {
 .seacher-jg02 ul{ width: 300px; height: 135px; float: left;}
 .seacher-jg02 ul li{  float: none; height: 28px; font-size: 16px; color: #999; overflow: hidden;text-overflow:ellipsis;white-space: nowrap; width: 300px;}
 .seacher-jg02 ul li a{  color: #333; font-size: 18px; }
+
+/**/
+@media screen and (max-width: 1200px) {
+
+    .footerbox{
+        width: 1200px; margin: auto;
+    }
+    .bannerbox{width: 1200px;  margin: auto; }
+
+    .colbanner01{width: 1200px; }
+    .colbanner02{width: 1200px; }
+    .colbanner03{width: 1200px; }
+    .colbanner04{width: 1200px; }
+    .colbanner05{width: 1200px; }
+
+    .shoolbanner{width: 1200px; }
+    .yxzx-banner{width: 1200px; }
+
+    .loginfull{width: 1200px; }
+}
