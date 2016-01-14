@@ -334,15 +334,18 @@
 .main-yx .hd-imglist .hd-imgmask  p{ text-align: center; font-size: 14px; color: #fff; line-height: 20px; }
 .main-yx .hd-imglist .imgmore  {  text-align: center; background: #f5f5f5; width: 216px; height: 153px; line-height: 153px;   }
 .main-yx .hd-imglist2 {margin-left: 20px;}
-.main-yx .hd-imglist2 img{width:255px; height: 179px; }
-.main-yx .hd-imglist2 div{ margin:0 30px 10px 0; }
+.main-yx .hd-imglist2 img{width:200px; height: 140px; }
+.main-yx .hd-imglist2 div{ margin:20px; }
 
-.main-yx .hd-col3{  background: #ffac62; width: 70px; height: 180px; border-radius: 5px; float: left; margin: 0 30px 0 0; font-size: 36px; color: #fff; text-align: center; line-height: 45px;}
+.main-yx .hd-col3{  background: #ffac62; width: 40px; padding:5px 20px; height: 120px; border-radius: 5px; float: left; margin: 0 30px 0 0; font-size: 24px; color: #fff; text-align: center; line-height: 30px;}
 .main-yx .bkbox{  margin:10px 20px ; }
 .main-yx .bkbox .bkzone{  width: 218px; height: 75px; background: #48dae7; font-size: 20px;color: #fff; text-align: center; padding-top: 15px; margin-right: 20px; float: left; margin-bottom: 10px;}
 .main-yx .bkbox .bkzone p{  text-align: center; }
 .main-yx .bkbox .bkzone a{ color: #fff;}
 
+.main-yx .hd-imglist3 {margin-left: 20px; margin-bottom: 20px;}
+
+.main-yx .hd-imglist3 .bkzone{  width: 260px; height: 95px; background: #48dae7; font-size: 20px;color: #fff; text-align: center; padding-top: 35px; margin-right: 20px; float: left; margin-bottom: 10px;}
 /*.main-yx .rightbar{ position: fixed;right: 1%;  top: 310px; z-index: 300; font-size: 18px; color: #fff;}*/
 .main-yx .rightbar a{  color: #fff;}
 .main-yx .rightbar .box01{width: 124px; height: 60px; background: #ff8a23; line-height: 30px; text-align: center; margin-bottom: 20px; }

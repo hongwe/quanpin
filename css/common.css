@@ -4191,3 +4191,17 @@ table th div {
 
     .loginfull{width: 1200px; }
 }
+
+
+/* 横向滚动------------------------------ */
+.scroll_horizontal{position:relative;width:980px;height:130px;padding:10px;background-color:#eee; margin-bottom: 20px;}
+.scroll_horizontal .box{overflow:hidden;position:relative;width:900px;height:130px;margin:0 auto; text-align: center;}
+.scroll_horizontal .list{overflow:hidden;width:9999px;}
+.scroll_horizontal .list li{float:left;width:225px;}
+.scroll_horizontal .list li img{width:205px; height: 130px;}
+.scroll_horizontal .prev,
+.scroll_horizontal .next{position:absolute;top:50%;margin-top:-25px;width:40px;height:50px;background-image:url(../images/control.png);background-repeat:no-repeat;font:0/0 Arial;cursor:pointer;}
+.scroll_horizontal .prev{left:5px;background-position:0 0;}
+.scroll_horizontal .next{right:5px;background-position:-40px 0;}
+.scroll_horizontal .prev:hover{background-position:0 -50px;}
+.scroll_horizontal .next:hover{background-position:-40px -50px;}
