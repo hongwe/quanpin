@@ -33,8 +33,8 @@
 .container .lanmutit08{ padding-left: 26px; height: 42px; border-bottom:1px #02a9ff solid; background: url("../images/center/tag14.png") no-repeat 10px 11px #02a9ff; color: #fff; font-size: 18px;line-height: 42px; }
 .container .lanmutit08 span{  margin-left: 20px; font-size: 16px; }
 .container .tip{ position: relative; display: inline-block;width: 30px; cursor: pointer; }
-.container .tippop{ position: absolute; top:25px; left: -40px; display: none; width: 80px; min-height: 30px; background: #171818;  border-radius: 5px; padding: 5px; text-align: center;}
-.container .tippop .pjt{ position: absolute; background: url("../images/center/psanjiao.png") no-repeat top center; width: 68px; height: 10px; top: -5px; left: 15px;}
+.container .tippop{ position: absolute; top:22px; left: -50px; display: none; width: 100px; min-height: 30px; background: #171818;  border-radius: 5px; padding: 5px; text-align: center;z-index: 50;}
+.container .tippop .pjt{ position: absolute; background: url("../images/center/psanjiao.png") no-repeat top center; width: 68px; height: 10px; top: -5px; left: 20px;}
 
 .container .centerleft {float: left; padding-top: 20px; width: 397px;}
 .container .centerleft .bar {float: left; width: 302px; }
