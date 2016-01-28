@@ -1851,6 +1851,14 @@ input[type=checkbox] {
     width: 100%;
     background: #f5f5f5;
 }
+.container-fullg2 {
+    width: 100%;
+
+    background: #f4f5f7;
+
+
+}
+
 
 .jieshi {
     margin-left: 10px;
@@ -1941,6 +1949,13 @@ input[type=checkbox] {
     position: absolute;
     top: 10px;
     left: 360px;
+    color: #999;
+    font-size: 14px;
+}
+.more02p {
+    position: absolute;
+    top: 15px;
+    left: 300px;
     color: #999;
     font-size: 14px;
 }
@@ -2081,6 +2096,44 @@ input[type=checkbox] {
 .more09 a:hover {
     color: #666;
 }
+
+.pjmore {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.pjmore a {
+    color: #666;
+}
+
+.pjmore a:hover {
+    color: #999;
+}
+
+.pjmore2 {
+    position: absolute;
+    top:-35px;
+    right: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.pjmore2 a {
+    color: #666;
+}
+
+.pjmore2 a:hover {
+    color: #999;
+}
+
+
+
+
+
+
 
 /*弹出*/
 .mntbbg {
@@ -4188,9 +4241,23 @@ table th div {
     .colbanner05{width: 1200px; }
 
     .shoolbanner{width: 1200px; }
+    .projectbanner{width: 1200px; }
     .yxzx-banner{width: 1200px; }
 
     .loginfull{width: 1200px; }
+    .container-fullw {
+        width: 1200px;
+
+    }
+
+    .container-fullg {
+        width: 1200px;
+
+    }
+    .container-fullg2 {
+        width: 1200px;
+
+    }
 }
 
 

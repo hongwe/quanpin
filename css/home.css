@@ -19,7 +19,7 @@
 .bannerbox{background: url("../images/common/bg.jpg") no-repeat center ; height: 631px;  margin: auto; }
 .bannerbox .banner{ width: 1200px; margin: auto; position: relative;}
 .bannerbox .banner input[ type=text],.bannerbox .banner input[ type=password]{ width: 252px; height: 20px;  font-size: 20px; padding: 16px 50px;background: none;  }
-.bannerbox .banner input[ type=text],.bannerbox .banner input[ type=password]{ width: 252px; height: 20px;  font-size: 20px; padding: 16px 50px;background: none;  }
+
 .bannerbox .banner .inp01{ color: #fff;border-radius: 26px; }
 .bannerbox .banner .tag01{background: url("../images/common/tag01.png") no-repeat; display: block; width: 24px; height: 24px; position: absolute; top:15px; left: 15px;}
 .bannerbox .banner .tag02{background: url("../images/common/tag02.png") no-repeat;display: block; width: 24px; height: 24px; position: absolute; top:15px; left: 15px;}

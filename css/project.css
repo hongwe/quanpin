@@ -1,0 +1,160 @@
+.topbox{ background: url("../images/common/topbg.png") ; height: 44px; border-top: 1px solid #000; position: fixed; width: 100%; top:0; z-index: 300;}
+.topbox .top{ width: 1200px; margin: auto; position: relative;}
+.topbox .top img{ margin-top: 5px;}
+.topbox .top .login-t{ position: absolute; width: 142px; right: 0; top:10px; height: 24px;}
+
+
+
+.navbox{ background: #fff; height: 80px;position: fixed; width: 100%; top:44px;z-index: 300; -moz-box-shadow: 0 1px 5px #888888;
+    box-shadow: 0 1px 5px #888888;}
+.navbox .nav{ width: 1200px; margin: auto;position: relative; height: 80px;}
+.navbox .nav .header_right{position: absolute;right: 0; width: 784px; top:20px; text-align: center;}
+.navbox .nav .header_right .header_nav_common { height: 56px; border-bottom: 4px solid #fff;  float: left; width: 112px; }
+.navbox .nav .header_right .header_nav_common.on { color: #ff4a00; border-bottom-color: #ff4a00; }
+.navbox .nav .header_right .header_nav_common.on a.on { color: #ff4a00; }
+.navbox .nav .header_right .header_nav_common .header_nav_common_son { height: 46px;  }
+.navbox .nav .header_right .header_nav_common .header_nav_common_son a { color: #666666; display: block; padding: 10px 9px 28px 9px; }
+.navbox .nav .header_right .header_nav_common:hover { color: #ff4a00; border-bottom-color: #ff4a00; }
+.navbox .nav .header_right .header_nav_common .header_nav_common_son a:hover { color: #ff4a00; }
+
+
+
+
+
+.main .subnav {
+    position: relative;
+    height: 90px;
+
+}
+
+.main .subnavleft {
+    position: absolute;
+    top: 22px;
+    left: 0;
+}
+
+.main .subnav li {
+    margin-left: 20px;
+}
+
+.main .subnav li a {
+    display: block;
+    padding: 11px 18px;
+    border: 1px solid #fff;
+    border-radius: 21px;
+    color: #666;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.main .subnav li a:hover {
+    color: #999;
+    border: 1px solid #ddd;
+}
+
+.main .subnav li.on a {
+    display: block;
+    padding: 11px 18px;
+    border: 1px solid #ddd;
+    border-radius: 21px;
+    background: #fff;
+    color: #f00;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.main .subnav li.on a:hover {
+    display: block;
+    padding: 11px 18px;
+    border: 1px solid #ddd;
+    border-radius: 21px;
+    background: #ddd;
+    color: #333;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.bannerpj { padding: 20px 0 0 0; height: 100px;}
+.bannerpj img{ width: 1200px; height: 100px;}
+
+
+.main .zbleft { width: 590px;float: left; position: relative;padding-right: 10px;  margin:10px 0 20px;}
+.main .zbright { width: 590px; float: left;position: relative;padding-left: 10px;margin: 10px 0 20px;}
+.main .zball{ width: 1200px;position: relative;padding-left: 10px;margin: 10px 0 20px;float: left;}
+
+.pjlanmutit{ border-bottom: 1px solid #ddd; height: 50px; position: relative;  }
+.pjlanmutit span{font-size: 20px;  display: block; position: absolute; line-height: 49px; border-bottom: 2px solid #f01400;color: #000; padding: 0 10px; }
+
+.pjtable01{ width: 590px; font-size: 14px;}
+.pjtable02{ width: 1200px; font-size: 14px;}
+.pjlista { width: 40%;  float: left; }
+.pjlistb { width: 20%; float: left; }
+.pjlistd { width: 10%; float: left; }
+.pjliste { width: 30%; float: left; }
+.pjlistf { width: 7%; float: left; }
+.pjlistg { width: 5%; float: left; }
+.pjlisth { width: 15%; float: left; }
+.pjlisti { width: 12%; float: left; }
+
+.pjtable01 a{ color: #02a9ff;}
+.pjtable01 a:hover{ color: #999;}
+.pjtable02 a{ color: #02a9ff;}
+.pjtable02 a:hover{ color: #999;}
+.juzhong dd{  text-align: center;}
+dt{ height: 25px; padding: 10px 5px; border-bottom: 1px solid #eeeeee; line-height: 25px; color: #999; text-align: center;}
+dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-height: 25px;color: #333;overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.pjtable02 dt{ line-height: 15px;}
+.silebox { position: relative; width: 100%;}
+
+.silebox .tag12{ position: absolute; top: -25px; left:205px; width: 10px; height: 10px; background: url("../images/center/tag12.png") no-repeat;}
+.silebox .I_tabr {   position: relative; float: left; width: 100%; border-bottom: none; }
+.silebox .I_tabr .I_N_tabr{position:absolute;top:-40px;left:130px;height:40px;font-size:14px;line-height:40px;}
+.silebox02 .I_tabr .I_N_tabr{position:absolute;top:-40px;left:30px;height:40px;font-size:14px;line-height:40px;}
+.silebox .I_tabr .I_N_tabr li{float:left;width:60pt;height:40px;line-height:40px;}
+.silebox .I_tabr .I_N_tabr li a{display:block;color:#cacaca;text-align:center;font-weight:400;font-size:14px;}
+.silebox .I_tabr .I_N_tabr li a:hover{color:#cacaca;}
+.silebox .I_tabr .I_N_tabr .yes{font-size:18px;}
+.silebox .I_tabr .I_N_tabr .yes a,.silebox .I_tabr .I_N_tabr .yes a:hover{color:#02a9ff;font-size:18px;}
+.no {  display: none;  }
+.silebox .content { padding: 0;}
+
+
+.pjlogin{}
+.pjlogin .znbox{ width: 230px; float: left;}
+.pjlogin .znbox img{  margin: 10px 10px;}
+.pjloginbox .zone01{ position: relative; margin: 20px 0; }
+.pjloginbox .zone02{ position: relative; margin-bottom: 20px;}
+.pjloginbox .zone03{ position: relative;}
+.pjloginbox {float: left; width: 360px;}
+.pjloginbox input[ type=text],.pjloginbox input[ type=password]{ width: 252px; height: 20px;  font-size: 20px; padding: 16px 50px;background: #eee; }
+.pjloginbox .inp01{ color: #999;border-radius: 26px; }
+.pjloginbox .tag01{background: url("../images/common/tag01.png") no-repeat; display: block; width: 24px; height: 24px; position: absolute; top:15px; left: 15px;}
+.pjloginbox .tag02{background: url("../images/common/tag02.png") no-repeat;display: block; width: 24px; height: 24px; position: absolute; top:15px; left: 15px;}
+.pjloginbox input[ type=button]{  width: 166px; height: 50px; font-size: 14px; background: #02a9ff; border: none;}
+.pjloginbox input[ type=button]:hover{   background:#32b9ff; }
+
+
+
+.pjloginbox .userzone{ padding: 20px; width: 320px; height: 230px;  position: relative;}
+.pjloginbox .userzone .guanzhu{  position: absolute;  width: 85px; height: 25px;   right: 20px; bottom: 13px;}
+
+.pjloginbox .userzone .usertx{  float: left; overflow: hidden;  width: 90px; height: 90px; position: relative; }
+.pjloginbox .userzone .usertx img{ width: 90px; height: 90px; border-radius: 45px;}
+.pjloginbox .userzone .name{   float: left;  margin-top: 1px; padding-left: 20px; width: 210px; color: #333; font-size: 24px; line-height: 50px; height: 50px;}
+
+
+.pjloginbox .userzone .info2 {  color: #666;font-size: 14px; height: 40px;  float: left; width: 210px; line-height: 20px;  padding-left: 20px;  margin-bottom: 20px; }
+.pjloginbox .userzone .info3 {  color: #666;font-size: 14px; height: 25px; float: left; width: 280px;line-height: 25px;padding:0 20px; }
+.pjloginbox .userzone a{color: #333;}
+.pjloginbox .userzone a:hover{color: #999;}
+
+
+.projectbanner{height: 224px;background: url("../images/project/banner.png") no-repeat center #fff; color: #fff; }
+.projectbanner .projecttitle{ width: 1200px; margin:auto ; }
+.projectbanner .projecttitle h1{ font-size: 30px;text-shadow: 1px 1px 1px #000;  padding-left: 30px; height: 120px;   line-height: 120px; ; font-weight: 100;}
+.projectbanner .projecttitle h2{ font-size: 24px; font-weight: 100;padding-left: 30px; }
+
+.zhanwu{ font-size: 30px; color: #ddd; background: url("../images/project/xiaolian.png") no-repeat;  margin-left: 100px; padding-left: 65px; margin-top: 60px; line-height: 80px; height: 150px;}
