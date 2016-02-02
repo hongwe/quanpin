@@ -1851,6 +1851,12 @@ input[type=checkbox] {
     vertical-align: middle;
 }
 
+
+.btnpj01{ width: 64px; height: 30px; background: #fe7685; color: #fff; border: none; }
+.btnpj01:hover{ width: 64px; height: 30px; background: #d95261; }
+
+
+
 /*公共*/
 .container {
     margin: auto;
@@ -4293,3 +4299,19 @@ table th div {
 .scroll_horizontal .next{right:5px;background-position:-40px 0;}
 .scroll_horizontal .prev:hover{background-position:0 -50px;}
 .scroll_horizontal .next:hover{background-position:-40px -50px;}
+
+.jdbar{ padding:0 20px; background: #fff; margin-top: 20px; float: left; width: 800px;}
+.jdbar .jdinfo{ float: right; width: 80px;}
+.jdbar .jdbg{ height: 12px; width: 660px; border: 1px solid #ebebeb; background: #fff; border-radius: 6px; float: left; margin:20px 0; }
+.jdbar .jdg{ height: 12px;  border: 0 solid #ebebeb; background: #89e437;border-radius: 6px;}
+
+
+
+.jdbar-a{ padding:0 20px; background: #fff; margin-top: 5px; float: left; width: 760px;}
+.jdbar-a .jdtit{ float: left; width: 100px;  font-size: 16px; line-height: 50px;}
+.jdbar-a .jdinfo{ float: right; width: 120px;line-height: 50px; font-size: 16px;}
+.jdbar-a .jdinfo a{ color: #666;}
+.jdbar-a .jdinfo2{ float: right; width: 120px; line-height: 50px; font-size: 16px;}
+.jdbar-a .jdinfo2 a{ color: #f01400}
+.jdbar-a .jdbg{ height: 12px; width: 520px; border: 1px solid #ebebeb; background: #fff; border-radius: 6px; float: left; margin:20px 0; }
+.jdbar-a .jdg{ height: 12px;  border: 0 solid #ebebeb; background: #89e437;border-radius: 6px;}
