@@ -90,6 +90,7 @@
 .pjtable01{ width: 590px; font-size: 14px;}
 .pjtable02{ width: 1200px; font-size: 14px;}
 .pjtable03{ width: 802px; font-size: 14px;}
+.pjtable03b{ width: 802px; font-size: 14px;}
 .pjlista { width: 40%;  float: left; }
 .pjlistb { width: 20%; float: left; }
 .pjlistd { width: 10%; float: left; }
@@ -99,6 +100,7 @@
 .pjlisth { width: 15%; float: left; }
 .pjlisti { width: 12%; float: left; }
 .pjlistj { width: 70%; float: left; }
+.pjlistk { width: 50%; float: left; }
 
 .pjtable01 a{ color: #02a9ff;}
 .pjtable01 a:hover{ color: #999;}
@@ -106,6 +108,8 @@
 .pjtable02 a:hover{ color: #999;}
 .pjtable03 a{ color: #02a9ff;}
 .pjtable03 a:hover{ color: #999;}
+.pjtable03b a{ color: #02a9ff;}
+.pjtable03b a:hover{ color: #999;}
 .juzhong dd{  text-align: center;}
 .juright dd{  text-align: right;}
 dt{ height: 25px; padding: 10px 5px; border-bottom: 1px solid #eeeeee; line-height: 25px; color: #999; text-align: center;}
@@ -114,7 +118,7 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
     white-space: nowrap;}
 .pjtable02 dt{ line-height: 15px;}
 .silebox { position: relative; width: 100%;}
-
+.pjtable03b dd{ min-height: 60px;}
 .silebox .tag12{ position: absolute; top: -25px; left:205px; width: 10px; height: 10px; background: url("../images/center/tag12.png") no-repeat;}
 .silebox .I_tabr {   position: relative; float: left; width: 100%; border-bottom: none; }
 .silebox .I_tabr .I_N_tabr{position:absolute;top:-40px;left:130px;height:40px;font-size:14px;line-height:40px;}
@@ -212,6 +216,8 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .container .centerleft .bar .userzone .usertx img{ width: 90px; height: 90px; border-radius: 45px;}
 .container .centerleft .bar .userzone .name{   float: left;  margin-top: 1px; padding-left: 20px; width: 140px; color: #fff; font-size: 24px; line-height: 55px;}
 .container .centerleft .bar .userzone .rzbox{   float: left; padding-left: 20px;width: 140px; color: #fff; font-size: 14px; line-height: 25px; }
+.container .centerleft .bar .userzone .txlbox{  position: absolute; width: 65px; height: 25px; border: 1px solid #fff; border-radius: 3px; text-align: center; line-height: 25px; right: 12px; top:75px; }
+
 .container .centerleft .bar .userzone .rzbox .rzok{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02.png") no-repeat 0 0;}
 .container .centerleft .bar .userzone .rzbox .rzno{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02g.png") no-repeat 0 0;}
 .rzok{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02.png") no-repeat 0 0;}
@@ -299,9 +305,19 @@ a:hover.canyu{  color: #02a9ff;}
 .container .centermain .pjzonebox .fangzhubox .biaoti{ width: 170px;height: 20px;overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;  }
-.wenzibar { width: 100%; height: 30px; border-radius: 15px; background: #fff7e8; line-height: 30px;overflow: hidden;
+.wenzibar { width: 100%; height: 36px; border-radius: 15px; background: #fff7e8; line-height: 36px;overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;  color: #6f391c; text-indent: 2em; font-size: 16px; margin-top: 10px;}
 .addkc { height: 100px; width: 100%; text-align: center; padding-top: 40px;}
 .videopic img{ width: 302px; height: 302px;}
+.xuanxbar{ position: relative; height: 20px;}
+.xuanxbar .xuanxinfo1{ position: absolute;right: 140px; width:120px; top:-25px; }
+.xuanxbar .xuanxinfo2{ position: absolute;right: 20px;  width: 120px; top:-25px; }
+.xuanxbar .xuanxinfo3{ position: absolute;right: 20px;  width: 150px; top:-25px;  font-size: 14px;}
+.pjtable03b .kcinfo01{overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.pjtable03b .kcinfo02 { font-size: 12px; line-height: 18px;overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
 

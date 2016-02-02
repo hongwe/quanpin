@@ -1627,7 +1627,20 @@ input[type=checkbox] {
 .btnc06:hover {
     background: #15dfd5;
 }
+.btnc06c {
+    margin-right: 0px;
+    padding: 0 30px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #01dfad;
+    color: #fff;
+    font-size: 16px;
+}
 
+.btnc06c:hover {
+    background: #15dfd5;
+}
 
 
 .btnc06b {
@@ -2577,6 +2590,26 @@ input[type=checkbox] {
     background: url("../images/yxzx/xuanze4.png") 0 0 no-repeat;
 }
 
+.xuanze-f {
+    display: none;
+}
+
+.xuanze-f + .xuanze-dnr {
+
+    background: url("../images/yxzx/xuanze1.png") 0 0 no-repeat;
+    cursor: pointer;
+    display: block;
+    width:25px ;
+    height:25px ;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.xuanze-f:checked + .xuanze-dnr {
+
+    background: url("../images/yxzx/xuanze2.png") 0 0 no-repeat;
+}
 
 
 .selectbox-a {
@@ -4315,3 +4348,5 @@ table th div {
 .jdbar-a .jdinfo2 a{ color: #f01400}
 .jdbar-a .jdbg{ height: 12px; width: 520px; border: 1px solid #ebebeb; background: #fff; border-radius: 6px; float: left; margin:20px 0; }
 .jdbar-a .jdg{ height: 12px;  border: 0 solid #ebebeb; background: #89e437;border-radius: 6px;}
+
+.wenbenbox{ padding: 20px; line-height: 25px; font-size: 14px;}
