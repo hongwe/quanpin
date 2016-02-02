@@ -242,3 +242,4 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .container .tip{ position: relative; display: inline-block;width: 30px; cursor: pointer; }
 .container .tippop{ position: absolute; top:22px; left: -50px; display: none; width: 100px; min-height: 30px; background: #171818;  border-radius: 5px; padding: 5px; text-align: center;z-index: 50;}
 .container .tippop .pjt{ position: absolute; background: url("../images/center/psanjiao.png") no-repeat top center; width: 68px; height: 10px; top: -5px; left: 20px;}
+.pingjiabar .pjinput .btnc06c{position: absolute; right: -30px; bottom: 10px;}
