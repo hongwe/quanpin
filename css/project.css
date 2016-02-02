@@ -82,12 +82,14 @@
 .main .zbleft { width: 590px;float: left; position: relative;padding-right: 10px;  margin:10px 0 20px;}
 .main .zbright { width: 590px; float: left;position: relative;padding-left: 10px;margin: 10px 0 20px;}
 .main .zball{ width: 1200px;position: relative;padding-left: 10px;margin: 10px 0 20px;float: left;}
+.main .zball02{ width: 800px;position: relative;padding-left: 10px;margin: 10px 0 20px;float: left;}
 
 .pjlanmutit{ border-bottom: 1px solid #ddd; height: 50px; position: relative;  }
 .pjlanmutit span{font-size: 20px;  display: block; position: absolute; line-height: 49px; border-bottom: 2px solid #f01400;color: #000; padding: 0 10px; }
 
 .pjtable01{ width: 590px; font-size: 14px;}
 .pjtable02{ width: 1200px; font-size: 14px;}
+.pjtable03{ width: 802px; font-size: 14px;}
 .pjlista { width: 40%;  float: left; }
 .pjlistb { width: 20%; float: left; }
 .pjlistd { width: 10%; float: left; }
@@ -201,8 +203,8 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .container .centerleft .bar .userzone .info1 { margin: 10px 0 ;  color: #fff; font-size: 14px;}
 .container .centerleft .bar .userzone .info1 span{ padding: 0 5px;}
 .container .centerleft .bar .userzone .info2 { margin: 10px 0;padding: 0 5px 10px 0;  color: #fff;font-size: 14px; height: 60px; border-bottom: 1px solid #fff; }
-.container .centerleft .bar .userzone .info3 { margin: 10px 0 ;  color: #fff; font-size: 14px; padding-top: 5px;}
-.container .centerleft .bar .userzone .info3 span{ padding: 0 5px;}
+.container .centerleft .bar .userzone .info3 { margin: 0 ;  color: #fff; font-size: 14px;  padding-bottom: 5px; line-height: 20px;}
+.container .centerleft .bar .userzone .info3 span{ padding: 0 2px;}
 .container .centerleft .bar .userzone a{color: #fff;}
 .container .centerleft .bar .userzone a:hover{color: #ddd;}
 .container .centerleft .bar .qdzone{ margin: 25px 0; width: 302px; height: 75px;background: url("../images/center/qiandaobg2.png") no-repeat; color: #999999; text-align: center; padding-top: 15px; }
@@ -242,4 +244,25 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .container .tip{ position: relative; display: inline-block;width: 30px; cursor: pointer; }
 .container .tippop{ position: absolute; top:22px; left: -50px; display: none; width: 100px; min-height: 30px; background: #171818;  border-radius: 5px; padding: 5px; text-align: center;z-index: 50;}
 .container .tippop .pjt{ position: absolute; background: url("../images/center/psanjiao.png") no-repeat top center; width: 68px; height: 10px; top: -5px; left: 20px;}
-.pingjiabar .pjinput .btnc06c{position: absolute; right: -30px; bottom: 10px;}
+
+.pingjiabar .pjinput .btnc06b{position: absolute; right: -30px; bottom: 10px;}
+
+.container .lanmutit01{ padding-left: 18px; height: 42px; border-bottom:1px #000 solid; background: url("../images/center/tag03.png") no-repeat 2px 11px; color: #333333; font-size: 18px;line-height: 42px; }
+
+.pingjiabar { padding-bottom: 20px;}
+.pingjiabar .pjtx{ width: 80px; float: left; text-align: center;}
+.pingjiabar .pjtx img{ width: 60px; height: 60px; border-radius: 30px;}
+.pingjiabar .pjname{  font-size: 16px; color: #333; width: 210px; float: left;line-height: 30px;}
+.pingjiabar .pjzone01{ float: left; padding: 10px 0; width: auto; position: relative;}
+.pingjiabar .pjother { line-height: 30px;}
+.pingjiabar .pjtime {position: absolute; right: 10px; top:20px;}
+.pingjiabar .pjinput textarea{ width: 270px;  height: 70px; padding: 10px; border: 1px solid #ddd; border-radius: 3px; margin-left: 10px; font-family:"Microsoft Yahei", sans-serif;}
+.pingjiabar .pjinput { position: relative;}
+
+.pingjiabar .starpj { margin-top: 5px; margin-left: 10px; height: 50px}
+
+
+
+.centermain { float: left; width: 802px;}
+.container .centermain .pjzonebox{position: relative;float: left; margin-bottom: 25px; width: 802px; }
+.container .centermain .pjzonebox .zball{position: relative;float: left; margin-bottom: 25px; width: 802px; }
