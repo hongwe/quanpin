@@ -158,3 +158,87 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .projectbanner .projecttitle h2{ font-size: 24px; font-weight: 100;padding-left: 30px; }
 
 .zhanwu{ font-size: 30px; color: #ddd; background: url("../images/project/xiaolian.png") no-repeat;  margin-left: 100px; padding-left: 65px; margin-top: 60px; line-height: 80px; height: 150px;}
+
+
+
+.centertopbox{ height: 60px; border-top: 1px solid #000; background: #000  ; width: 100%; position: fixed; z-index: 300;}
+.centertopbox .top{ position: relative; margin: auto; width: 1200px; height: 60px;background: url("../images/center/logo.png") no-repeat;}
+.centertopbox .top .centernav{ margin-left: 200px; }
+.centertopbox .top .centernav li{ float: left; font-size: 18px; line-height: 60px; }
+.centertopbox .top .centernav li a{display: block; width: 100px; height: 60px; color: #fff;text-align: center; }
+.centertopbox .top .centernav .on a{ background: #333333; color: #fff;  }
+.centertopbox .top .centernav li a:hover{ background: #333333; color: #fff;  }
+.centertopbox .top .msg { position: relative; float: right; margin-top: 20px;  margin-right: 20px; width: 25px; height: 25px; background: url("../images/center/tag01a.png") no-repeat; cursor: pointer;}
+.centertopbox .top .msg .shuzi{  position: absolute; top:-6px; right: -8px; color:#fff;cursor: pointer; background: #ff0000; width: 20px;  height: 20px; border-radius: 10px; text-align: center; font-size: 10px; line-height: 18px; }
+.centertopbox .top .setup { position: relative;  float: right; margin-top: 20px ;margin-right: 20px; width: 25px; background: url("../images/center/tag01b.png") no-repeat; cursor: pointer;}
+.centertopbox .top .setup .subdiv{  position: absolute; top:28px; left: -20px;z-index: 100; display: none; padding-top: 12px; width: 120px; background: #000;}
+.centertopbox .top .setup .subdiv li{  float: none;  height: 26px; background: #fff;    }
+.centertopbox .top .setup .subdiv li a{ display: block;  padding: 0 10px;  width: 98px; border: 1px #ddd solid;border-top:none; color: #333; font-size: 14px; line-height: 26px;}
+.centertopbox .top .setup .subdiv li a:hover{border: 1px #fff solid;border-top:none;  background: #000; color: #fff;}
+.centertopbox .top .setup a{ display: inline-block; width: 25px; height: 25px;}
+.centertopbox .top .exit { float: right; margin-top: 20px; margin-right: 10px; width: 25px; height: 25px; background: url("../images/center/tag01c.png") no-repeat;cursor: pointer;}
+.centertopbox .top .exit a{ float: left; display: block; width: 25px; height: 25px;}
+
+.centertopbox .top .msg .subdiv{  position: absolute; top:25px; left: -80px;z-index: 100; display: none; padding-top: 12px; width: 220px; background: #000; height: 200px;}
+.centertopbox .top .msg .subdiv .meslist{  background: #fff; margin-top: 3px; height:197px; border: 1px solid #ddd;}
+.centertopbox .top .msg .subdiv .meslist div{  text-align: center; font-size: 16px; }
+
+
+.container .centerleft {float: left; padding-top: 20px; width: 397px;}
+.container .centerleft .bar {float: left; width: 302px; }
+.container .centerleft .bar02 {float: right; width: 302px; }
+.container .centerleft .bar .userzone{ padding: 20px; width: 262px; height: 230px;   background: url("../images/center/leftbg.png") no-repeat;text-shadow:1px 1px 1px #333; position: relative;}
+.container .centerleft .bar .userzone .guanzhu{  position: absolute;  width: 85px; height: 25px;   right: 20px; bottom: 13px;}
+
+.container .centerleft .bar .userzone .usertx{  float: left; overflow: hidden;  width: 90px; height: 90px; position: relative; }
+.container .centerleft .bar .userzone .usertx img{ width: 90px; height: 90px; border-radius: 45px;}
+.container .centerleft .bar .userzone .name{   float: left;  margin-top: 1px; padding-left: 20px; width: 140px; color: #fff; font-size: 24px; line-height: 55px;}
+.container .centerleft .bar .userzone .rzbox{   float: left; padding-left: 20px;width: 140px; color: #fff; font-size: 14px; line-height: 25px; }
+.container .centerleft .bar .userzone .rzbox .rzok{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02.png") no-repeat 0 0;}
+.container .centerleft .bar .userzone .rzbox .rzno{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02g.png") no-repeat 0 0;}
+.rzok{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02.png") no-repeat 0 0;}
+.rzno{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02g.png") no-repeat 0 0;}
+.container .centerleft .bar .userzone .info1 { margin: 10px 0 ;  color: #fff; font-size: 14px;}
+.container .centerleft .bar .userzone .info1 span{ padding: 0 5px;}
+.container .centerleft .bar .userzone .info2 { margin: 10px 0;padding: 0 5px 10px 0;  color: #fff;font-size: 14px; height: 60px; border-bottom: 1px solid #fff; }
+.container .centerleft .bar .userzone .info3 { margin: 10px 0 ;  color: #fff; font-size: 14px; padding-top: 5px;}
+.container .centerleft .bar .userzone .info3 span{ padding: 0 5px;}
+.container .centerleft .bar .userzone a{color: #fff;}
+.container .centerleft .bar .userzone a:hover{color: #ddd;}
+.container .centerleft .bar .qdzone{ margin: 25px 0; width: 302px; height: 75px;background: url("../images/center/qiandaobg2.png") no-repeat; color: #999999; text-align: center; padding-top: 15px; }
+.container .centerleft .bar .qdzone span{  display: block;line-height: 28px;}
+.container .centerleft .bar .qdzone .qdbtn{ width: 146px; float: left; margin-right: 10px;}
+.container .centerleft .bar .qdzone .gzbtn{ width: 146px; float: left;}
+
+.container .centerleft .bar .count{margin-bottom: 25px;}
+.container .centerleft .bar .count .list {  padding:5px 11px ;}
+.container .centerleft .bar .count .list li{ float: none; padding-left: 40px;  border-bottom: 1px #eeeeee solid; color: #666; font-size: 14px; line-height: 40px; }
+.container .centerleft .bar .count .list li a{color: #666; }
+.container .centerleft .bar .count .counta1 {background: url("../images/center/tag21.png") no-repeat 4px 8px;  }
+.container .centerleft .bar .count .counta2 {background: url("../images/center/tag22.png") no-repeat 4px 8px;  }
+.container .centerleft .bar .count .counta3 {background: url("../images/center/tag23.png") no-repeat 4px 8px;  }
+.container .centerleft .bar .count .counta4 {background: url("../images/center/tag24.png") no-repeat 4px 8px;  }
+.container .centerleft .bar .count .countb1 {background: url("../images/center/tag25.png") no-repeat 4px 8px;  }
+.container .centerleft .bar .count .countb2 {background: url("../images/center/tag26.png") no-repeat 4px 8px;  }
+.container .centerleft .bar .count .countb3 {background: url("../images/center/tag27.png") no-repeat 4px 8px;  }
+.container .centerleft .bar .count .countb4 {background: url("../images/center/tag28.png") no-repeat 4px 8px;  }
+.container .centerleft .bar .count .list div{ margin-left: 12px; font-size: 12px;}
+.container .centerleft .bar .visitors{ position: relative; margin-bottom: 25px;}
+.container .centerleft .bar .visitors .list {  margin: 20px 0;}
+.container .centerleft .bar .visitors .list li{ overflow: hidden; margin: 10px 5px; width: 60px; height: 80px;  text-align: center;}
+.container .centerleft .bar .visitors .list li a{ color: #666;}
+.container .centerleft .bar .visitors .list li a:hover{ color: #333;}
+.container .centerleft .bar .visitors .list li img{  width: 60px; height: 60px; border-radius: 30px;}
+.container .centerleft .bar .visitors .list p{line-height: 20px;}
+
+.container .centerleft .bar .friend{ position: relative;margin-bottom: 25px;}
+.container .centerleft .bar .friend .list {  margin: 20px 0;}
+.container .centerleft .bar .friend .list li{ overflow: hidden; margin: 10px 5px; width: 60px; height: 80px;  text-align: center;}
+.container .centerleft .bar .friend .list li a{ color: #666;}
+.container .centerleft .bar .friend .list li a:hover{ color: #333;}
+.container .centerleft .bar .friend .list li img{  width: 60px; height: 60px; border-radius: 30px;}
+.container .centerleft .bar .friend .list p{line-height: 20px;}
+
+.container .tip{ position: relative; display: inline-block;width: 30px; cursor: pointer; }
+.container .tippop{ position: absolute; top:22px; left: -50px; display: none; width: 100px; min-height: 30px; background: #171818;  border-radius: 5px; padding: 5px; text-align: center;z-index: 50;}
+.container .tippop .pjt{ position: absolute; background: url("../images/center/psanjiao.png") no-repeat top center; width: 68px; height: 10px; top: -5px; left: 20px;}
