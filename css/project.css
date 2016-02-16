@@ -344,3 +344,10 @@ a:hover.canyu{  color: #02a9ff;}
 .top5list dd.chengj2{ width: 100px; }
 
 
+/**/
+.fanglist{ clear: both;}
+.fanglist { margin: 15px 0; border: 1px solid #ddd; float: left; width: 100%;}
+.fanglist li { width: 25%; line-height: 50px; font-size: 14px; text-indent: 1em;}
+
+.fanglist a{  color: #333;}
+.fanglist a:hover{  color: #999;}
