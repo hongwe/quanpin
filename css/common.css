@@ -1868,7 +1868,8 @@ input[type=checkbox] {
 .btnpj01{ width: 64px; height: 30px; background: #fe7685; color: #fff; border: none; }
 .btnpj01:hover{ width: 64px; height: 30px; background: #d95261; }
 
-
+.btnpj02{  height: 30px; background: #fe7685; color: #fff; border: none; padding-left: 20px; padding-right: 20px; font-size: 16px; }
+.btnpj02:hover{  background: #d95261; }
 
 /*公共*/
 .container {
@@ -2035,6 +2036,27 @@ input[type=checkbox] {
     color: #d95261;
 }
 
+
+
+.more03c {
+    position: absolute;
+    bottom: -25px;
+    right: 2px;
+    padding-left: 30px;
+    background: url("../images/center/add01.png") no-repeat 5px 3px;
+    font-size: 16px;
+    color: #fe7685;
+}
+
+.more03c a {
+    color: #fe7685;
+}
+
+.more03c a:hover {
+    color: #d95261;
+}
+
+
 .more04 {
     color: #666;
     font-size: 14px;
@@ -2136,6 +2158,17 @@ input[type=checkbox] {
     color: #666;
 }
 
+
+.more10 {
+    position: absolute;
+    top: 112px;
+    right: -10px;
+    color: #666;
+    font-size: 12px;
+}
+.more10 a {
+    color: #ff4a00;
+}
 .pjmore {
     position: absolute;
     top: 20px;

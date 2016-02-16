@@ -87,7 +87,7 @@
 .pjlanmutit{ border-bottom: 1px solid #ddd; height: 50px; position: relative;  }
 .pjlanmutit span{font-size: 20px;  display: block; position: absolute; line-height: 49px; border-bottom: 2px solid #f01400;color: #000; padding: 0 10px; }
 
-.pjtable01{ width: 590px; font-size: 14px;}
+.pjtable01{ width: 590px; font-size: 14px; position: relative;}
 .pjtable02{ width: 1200px; font-size: 14px;}
 .pjtable03{ width: 802px; font-size: 14px;}
 .pjtable03b{ width: 802px; font-size: 14px;}
@@ -351,3 +351,32 @@ a:hover.canyu{  color: #02a9ff;}
 
 .fanglist a{  color: #333;}
 .fanglist a:hover{  color: #999;}
+
+
+.container .centerleft .bar .fzuserzone{ padding: 20px; width: 262px; height: 170px;   background: url("../images/center/leftbg.png") no-repeat;text-shadow:1px 1px 1px #333; position: relative;}
+.container .centerleft .bar .fzuserzone .guanzhu{  position: absolute;  width: 85px; height: 25px;   right: 20px; bottom: 13px;}
+
+.container .centerleft .bar .fzuserzone .usertx{  float: left; overflow: hidden;  width: 90px; height: 90px; position: relative; }
+.container .centerleft .bar .fzuserzone .usertx img{ width: 90px; height: 90px; border-radius: 45px;}
+.container .centerleft .bar .fzuserzone .name{   float: left;  margin-top: 1px; padding-left: 20px; width: 140px; color: #fff; font-size: 24px; line-height: 55px;}
+.container .centerleft .bar .fzuserzone .rzbox{   float: left; padding-left: 20px;width: 140px; color: #fff; font-size: 14px; line-height: 25px; }
+.container .centerleft .bar .fzuserzone .txlbox{  position: absolute; width: 65px; height: 25px; border: 1px solid #fff; border-radius: 3px; text-align: center; line-height: 25px; right: 12px; top:75px; }
+.container .centerleft .bar .fzuserzone .info1 {  color: #fff; font-size: 14px; width: 70px; float: left; height: 50px; }
+.container .centerleft .bar .fzuserzone .info1 a{ display: block; color: #fff; }
+.container .centerleft .bar .fzuserzone .info1 span{ display: block }
+
+.container .centerleft .bar .fzuserzone .info2 { margin: 10px 0;padding: 10px 5px 10px 0;  color: #fff;font-size: 14px; height: 50px; border-top: 1px solid #fff; line-height: 25px; }
+.buttonzone{ height: 30px; width: 100%; text-align: right; padding-top: 20px;}
+.buttonzone input[type=button]{ margin-left: 20px;}
+.tjzone{ height: 50px; font-size: 18px; text-align: center; line-height: 50px;  border-bottom: 1px solid #eeeeee;}
+
+
+.pjtable01 .more03c a{color: #fe7685;}
+.pjtable01 .more03c a{color: #d95261;}
+
+
+/*zuoye*/
+.zuoyebox{ background: #fff; padding: 20px; margin: 20px 0 0 0;}
+.zuoyebox .title{  border-bottom: 1px solid #eeeeee; line-height: 30px; font-size: 18px; padding-bottom: 10px;}
+.zuoyebox .zyinfo{ color: #999999;font-size: 14px; margin: 10px 0;}
+.zuoyebox .zymain{ color: #333;font-size: 14px;}
