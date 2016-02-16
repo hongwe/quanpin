@@ -120,6 +120,8 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .silebox { position: relative; width: 100%;}
 .pjtable03b dd{ min-height: 60px;}
 .silebox .tag12{ position: absolute; top: -25px; left:205px; width: 10px; height: 10px; background: url("../images/center/tag12.png") no-repeat;}
+.silebox .tag13{ position: absolute; top: -45px; left:205px; width: 10px; height: 10px; background: url("../images/center/tag12.png") no-repeat;}
+.silebox .tag14{ position: absolute; top: -45px; left:285px; width: 10px; height: 10px; background: url("../images/center/tag12.png") no-repeat;}
 .silebox .I_tabr {   position: relative; float: left; width: 100%; border-bottom: none; }
 .silebox .I_tabr .I_N_tabr{position:absolute;top:-40px;left:130px;height:40px;font-size:14px;line-height:40px;}
 .silebox02 .I_tabr .I_N_tabr{position:absolute;top:-40px;left:30px;height:40px;font-size:14px;line-height:40px;}
@@ -143,6 +145,17 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .sileboxa .I_tabr .I_N_tabr .yes a,.sileboxa .I_tabr .I_N_tabr .yes a:hover{color:#02a9ff;font-size:18px; border: 1px solid #02a9ff; border-radius: 20px;}
 
 .sileboxa .content{ min-height: 240px;}
+
+
+.silebox .I2_tabr {   position: relative; float: left; width: 100%; border-bottom: none; }
+.silebox .I2_tabr .I2_N_tabr{position:absolute;top:-60px;left:130px;height:40px;font-size:14px;line-height:40px;}
+.silebox .I2_tabr .I2_N_tabr li{float:left;width:60pt;height:40px;line-height:40px;}
+.silebox .I2_tabr .I2_N_tabr li a{display:block;color:#cacaca;text-align:center;font-weight:400;font-size:14px;}
+.silebox .I2_tabr .I2_N_tabr li a:hover{color:#cacaca;}
+.silebox .I2_tabr .I2_N_tabr .yes{font-size:18px;}
+.silebox .I2_tabr .I2_N_tabr .yes a,.silebox .I_tabr .I_N_tabr .yes a:hover{color:#02a9ff;font-size:18px;}
+
+
 
 .pjlogin{}
 .pjlogin .znbox{ width: 230px; float: left;}
@@ -255,6 +268,8 @@ dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .container .centerleft .bar .visitors .list li img{  width: 60px; height: 60px; border-radius: 30px;}
 .container .centerleft .bar .visitors .list p{line-height: 20px;}
 
+.container .centerleft .bar .top5nbox{ position: relative; margin-bottom: 25px;}
+
 .container .centerleft .bar .friend{ position: relative;margin-bottom: 25px;}
 .container .centerleft .bar .friend .list {  margin: 20px 0;}
 .container .centerleft .bar .friend .list li{ overflow: hidden; margin: 10px 5px; width: 60px; height: 80px;  text-align: center;}
@@ -320,4 +335,12 @@ a:hover.canyu{  color: #02a9ff;}
 .pjtable03b .kcinfo02 { font-size: 12px; line-height: 18px;overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;}
+
+.top5list{ margin-top: 20px;}
+.top5list .top5n{ display: block; width: 18px; height: 18px; background: #fe7685; border-radius: 9px; line-height: 18px; text-align: center; color: #fff; font-size: 12px; font-weight: 700; margin-left: 5px;}
+.top5list dd{float: left; width: 30px;}
+.top5list dd.name{ width: 120px;}
+.top5list dd.chengj1{ width: 100px; color: #fe7685;}
+.top5list dd.chengj2{ width: 100px; }
+
 
