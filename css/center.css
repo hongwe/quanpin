@@ -806,7 +806,7 @@
 .pingjiabar .pjname{  font-size: 16px; color: #333; width: 210px; float: left;line-height: 30px;}
 .pingjiabar .pjzone01{ float: left; padding: 10px 0; width: auto; position: relative;}
 .pingjiabar .pjother { line-height: 30px;}
-.pingjiabar .pjtime {position: absolute; right: 10px; top:20px;}
+.pingjiabar .pjtime {position: absolute; right: 10px; bottom: 10px;}
 .pingjiabar .pjinput textarea{ width: 270px;  height: 70px; padding: 10px; border: 1px solid #ddd; border-radius: 3px; margin-left: 10px; font-family:"Microsoft Yahei", sans-serif;}
 .pingjiabar .pjinput { position: relative;}
 .pingjiabar .pjinput .btnc06{position: absolute; right: -30px; bottom: 10px;}

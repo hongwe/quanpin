@@ -3102,18 +3102,18 @@ table th div {
     float: right;
     width: 300px;
     border-left: 1px solid #ddd;
-    height: 60px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
-    font-size: 20px;
-    margin-top: -8px;
+    font-size: 18px;
 }
 
 .main .boxzone01 {
     position: relative;
 }
 .main .boxzone02 {
-    position: relative; background: #fff;
+    position: relative;
+    background: #fff;
 }
 
 .main .boxzone01 .leftbox {
@@ -3459,6 +3459,15 @@ table th div {
 
 .sbarlist .ppt {
     background: url("../images/center/ppt.png") no-repeat 0px 0px;
+}
+.sbarlist .word {
+    background: url("../images/center/word.png") no-repeat 0px 0px;
+}
+.sbarlist .audio {
+    background: url("../images/center/audio.png") no-repeat 0px 0px;
+}
+.sbarlist .video {
+    background: url("../images/center/video.png") no-repeat 0px 0px;
 }
 
 .sbarlist .sbardlname {
@@ -4354,7 +4363,7 @@ table th div {
 
 
 /* 横向滚动------------------------------ */
-.scroll_horizontal{position:relative;width:980px;height:130px;padding:10px;background-color:#eee; margin-bottom: 20px;}
+.scroll_horizontal{position:relative;width:972px;height:130px;padding:10px;background-color:#eee; margin-bottom: 20px;}
 .scroll_horizontal .box{overflow:hidden;position:relative;width:900px;height:130px;margin:0 auto; text-align: center;}
 .scroll_horizontal .list{overflow:hidden;width:9999px;}
 .scroll_horizontal .list li{float:left;width:225px;}

@@ -84,3 +84,15 @@ img { border: 0; vertical-align: middle; }
 /*定义一些字体颜色*/
 .red{ color: #ff0000;}
 .green{ color: green;}
+
+/*pagination*/
+.paginationbox{ height:30px; padding-top:10px;width:100%; margin:auto; font-family:"微软雅黑";  float:left; margin-top:10px;}
+.pagination{width:700px; margin:auto; text-align: center;}
+.pagination li{border:0; margin:0; padding:0;font-size:12px;list-style:none; display: inline; line-height:16px;float:none;}
+.pagination a{border:solid 1px #e8e6e6;}
+.pagination .omit{ padding:10px;}
+.pagination .previous-off,.pagination .next-off {color:#ff8a86;font-weight:bold;padding:5px 8px; border:solid 1px #e8e6e6;}
+.pagination .next a,.pagination .previous a {font-weight:bold;border:solid 1px #e8e6e6;}
+.pagination .active{border:solid 1px #ff8a86; background-color:#ff8a86; color:White;padding:5px 8px; font-weight:bold;}
+.pagination a:link,.pagination a:visited {color:#ff8a86;padding:5px 8px;text-decoration:none;}
+.pagination a:hover{border:solid 1px #ff8a86; background-color:#ff8a86; color:White;padding:5px 8px;}
