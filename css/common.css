@@ -358,7 +358,9 @@ img {
 .pt20 {
     padding-top: 20px;
 }
-
+.pt10 {
+    padding-top: 10px;
+}
 .mr56 {
     margin-right: 56px;
 }
@@ -1985,6 +1987,21 @@ input[type=checkbox] {
     color: #999;
 }
 
+.more01b {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    color: #fe7685;
+}
+.more01b a {
+    color: #fe7685;
+}
+
+.more01b a:hover {
+    color: #d95261;
+}
+
 .more02 {
     position: absolute;
     top: 10px;
@@ -2055,6 +2072,7 @@ input[type=checkbox] {
 .more03c a:hover {
     color: #d95261;
 }
+
 
 
 .more04 {
