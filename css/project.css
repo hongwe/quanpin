@@ -102,6 +102,22 @@
 .pjlistj { width: 70%; float: left; }
 .pjlistk { width: 50%; float: left; }
 
+.ddw50{  width: 50%;  float: left;}
+.ddw40{  width: 40%;  float: left;}
+.ddw30{  width: 30%;  float: left;}
+.ddw20{  width: 20%;  float: left;}
+.ddw10{  width: 10%;  float: left;}
+.ddw5{  width: 5%;  float: left;}
+.ddw7{  width: 7%;  float: left;}
+.ddw12{  width: 12%;  float: left;}
+.ddw15{  width: 15%;  float: left;}
+.ddw70{  width: 70%;  float: left;}
+dd.juz{text-align: center;}
+dd.jur{text-align: right;}
+dd.jul{text-align: left;}
+
+
+
 .pjtable01 a{ color: #02a9ff;}
 .pjtable01 a:hover{ color: #999;}
 .pjtable02 a{ color: #02a9ff;}
@@ -112,13 +128,13 @@
 .pjtable03b a:hover{ color: #999;}
 .juzhong dd{  text-align: center;}
 .juright dd{  text-align: right;}
-dt{ height: 25px; padding: 10px 5px; border-bottom: 1px solid #eeeeee; line-height: 25px; color: #999; text-align: center;}
-dd{ height: 25px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-height: 25px;color: #333;overflow: hidden;
+dt{ height: 45px; padding: 10px 5px; border-bottom: 1px solid #eeeeee; line-height: 25px; color: #999; text-align: center; box-sizing: border-box;}
+dd{ height: 45px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-height: 25px;color: #333;overflow: hidden;box-sizing: border-box;
     text-overflow: ellipsis;
     white-space: nowrap;}
 .pjtable02 dt{ line-height: 15px;}
 .silebox { position: relative; width: 100%;}
-.pjtable03b dd{ min-height: 60px;}
+.pjtable03b dd{ min-height: 80px;}
 .silebox .tag12{ position: absolute; top: -25px; left:205px; width: 10px; height: 10px; background: url("../images/center/tag12.png") no-repeat;}
 .silebox .tag13{ position: absolute; top: -45px; left:205px; width: 10px; height: 10px; background: url("../images/center/tag12.png") no-repeat;}
 .silebox .tag14{ position: absolute; top: -45px; left:285px; width: 10px; height: 10px; background: url("../images/center/tag12.png") no-repeat;}
@@ -338,10 +354,10 @@ a:hover.canyu{  color: #02a9ff;}
 
 .top5list{ margin-top: 20px;}
 .top5list .top5n{ display: block; width: 18px; height: 18px; background: #fe7685; border-radius: 9px; line-height: 18px; text-align: center; color: #fff; font-size: 12px; font-weight: 700; margin-left: 5px;}
-.top5list dd{float: left; width: 30px;}
-.top5list dd.name{ width: 120px;}
-.top5list dd.chengj1{ width: 100px; color: #fe7685;}
-.top5list dd.chengj2{ width: 100px; }
+.top5list dd{float: left; width: 10%;}
+.top5list dd.name{ width: 50%;}
+.top5list dd.chengj1{ width: 40%; color: #fe7685;}
+.top5list dd.chengj2{ width: 40%; }
 
 
 /**/
