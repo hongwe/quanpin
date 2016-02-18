@@ -133,8 +133,10 @@ dd.jul{text-align: left;}
 .pjtable03b a:hover{ color: #999;}
 .juzhong dd{  text-align: center;}
 .juright dd{  text-align: right;}
-dt{ height: 45px; padding: 10px 5px; border-bottom: 1px solid #eeeeee; line-height: 25px; color: #999; text-align: center; box-sizing: border-box;}
-dd{ height: 45px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-height: 25px;color: #333;overflow: hidden;box-sizing: border-box;
+dt{ height: 45px; padding: 10px 5px; border-bottom: 1px solid #eeeeee; line-height: 25px; color: #999; text-align: center; box-sizing: border-box;-moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */}
+dd{ height: 45px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-height: 25px;color: #333;overflow: hidden;box-sizing: border-box;-moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
     text-overflow: ellipsis;
     white-space: nowrap;}
 .pjtable02 dt{ line-height: 15px;}
