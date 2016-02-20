@@ -2002,6 +2002,21 @@ input[type=checkbox] {
     color: #d95261;
 }
 
+.more01c {
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    font-size: 14px;
+    color: #fe7685;
+}
+.more01c a {
+    color: #fe7685;
+}
+
+.more01c a:hover {
+    color: #d95261;
+}
+
 .more02 {
     position: absolute;
     top: 10px;
@@ -2661,6 +2676,28 @@ input[type=checkbox] {
 
     background: url("../images/yxzx/xuanze2.png") 0 0 no-repeat;
 }
+.xuanze-g {
+    display: none;
+}
+
+.xuanze-g + .xuanze-dnr {
+
+    background: url("../images/project/xuantag2.png") 0 0 no-repeat;
+    cursor: pointer;
+    display: block;
+    width: 100% ;
+    height:25px ;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-indent: 2em;
+
+}
+
+.xuanze-g:checked + .xuanze-dnr {
+
+    background: url("../images/project/xuantag1.png") 0 0 no-repeat;
+}
+
 
 
 .selectbox-a {
@@ -4410,3 +4447,107 @@ table th div {
 .jdbar-a .jdg{ height: 12px;  border: 0 solid #ebebeb; background: #89e437;border-radius: 6px;}
 
 .wenbenbox{ padding: 20px; line-height: 25px; font-size: 14px;}
+
+/*基础页*/
+.x-title-a{ font-size: 16px; border-bottom: 1px solid #eeeeee; height: 40px;}
+
+
+.x-conbox{ background: #fff; padding: 20px; margin: 20px 0 0 0; position: relative;}
+.x-conbox .xtitle{   line-height: 30px; font-size: 24px; padding-bottom: 10px; color: #333; text-align: center; }
+.x-conbox .xtitle a{  color: #02a9ff;}
+.x-conbox .xtitle a:hover{  color: #01c4ff;}
+.x-conbox .xtitle-h2{  line-height: 24px; font-size: 24px; padding-bottom: 20px; color: #333; }
+.x-conbox .xline{border-bottom: 1px solid #eeeeee; width: 100%; height: 21px; margin-bottom: 20px; }
+.x-conbox .xinfo{ color: #999999;font-size: 14px; text-align: center; }
+.x-conbox .xinfo span{ margin-right: 20px;}
+.x-conbox .xinfo a{  color: #02a9ff;}
+.x-conbox .xinfo a:hover{  color: #01c4ff;}
+.x-conbox .xinfo-h2{ color: #999999;font-size: 14px;  }
+.x-conbox .xinfo-h2 span{ margin-right: 20px;}
+.x-conbox .xinfo-h2 a{  color: #02a9ff;}
+.x-conbox .xinfo-h2 a:hover{  color: #01c4ff;}
+.x-conbox .xmain{ font-size: 14px; line-height: 25px; padding:0 40px 20px;}
+.x-conbox .xmain p{ text-indent: 2em;}
+
+.x-conbox .xdl a{color: #02a9ff; }
+.x-conbox .xdl a:hover{color: #01c4ff; }
+
+.xsilebox{ padding:0 20px;}
+.xsilebox .I_tabr {   position: relative; float: left; width: 100%; border-bottom: 1px solid #eee; }
+.xsilebox .I_tabr .I_N_tabr{height:40px;font-size:18px;line-height:40px;}
+.xsilebox .I_tabr .I_N_tabr li{float:left;width:60pt;height:40px;line-height:40px;}
+.xsilebox .I_tabr .I_N_tabr li a{display:block;color:#333;text-align:center;font-weight:400;font-size:18px;  }
+.xsilebox .I_tabr .I_N_tabr li a:hover{color:#666;border-bottom: 2px #02a9ff solid;}
+.xsilebox .I_tabr .I_N_tabr .yes{font-size:18px;}
+.xsilebox .I_tabr .I_N_tabr .yes a,.xsilebox .I_tabr .I_N_tabr .yes a:hover{color:#02a9ff;font-size:18px;border-bottom: 2px #02a9ff solid;}
+.xsilebox .content { padding: 0;}
+
+.xsilebox{ padding:0 20px;}
+.xsilebox .I_tabr2 {   position: relative; float: left; width: 100%; border-bottom: 1px solid #eee; }
+.xsilebox .I_tabr2 .I_N_tabr{height:40px;font-size:18px;line-height:40px;}
+.xsilebox .I_tabr2 .I_N_tabr li{float:left;width:90pt;height:40px;line-height:40px;}
+.xsilebox .I_tabr2 .I_N_tabr li a{display:block;color:#333;text-align:center;font-weight:400;font-size:18px;  }
+.xsilebox .I_tabr2 .I_N_tabr li a:hover{color:#666;border-bottom: 2px #e8413c solid;}
+.xsilebox .I_tabr2 .I_N_tabr .yes{font-size:18px;}
+.xsilebox .I_tabr2 .I_N_tabr .yes a,.xsilebox .I_tabr .I_N_tabr2 .yes a:hover{color:#e8413c;font-size:18px;border-bottom: 2px #e8413c solid;}
+
+.xtoux{ width: 125px; float: left; min-height: 120px; margin-top: 10px;}
+.xtoux img{  width: 60px;height: 60px; border-radius: 30px;margin-left: 30px;}
+
+
+.xstar {
+
+    color: #999;
+    font-size: 14px;
+
+    width: 150px;
+
+    top:5px;
+}
+.xstar-a-r{ position: absolute;right: 20px; top: 20px;}
+.xstar-a-l{ position: absolute;left: 300px;}
+.xstar .txtinfo{ margin-top: 30px;}
+.xstar .star01 {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 16px;
+    height: 14px;
+    background: url("../images/center/star.png") repeat-x;
+}
+
+.xstar .star02 {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 32px;
+    height: 14px;
+    background: url("../images/center/star.png") repeat-x;
+}
+
+.xstar .star03 {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 48px;
+    height: 14px;
+    background: url("../images/center/star.png") repeat-x;
+}
+
+.xstar .star04 {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 64px;
+    height: 14px;
+    background: url("../images/center/star.png") repeat-x;
+}
+
+.xstar .star05 {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 80px;
+    height: 14px;
+    background: url("../images/center/star.png") repeat-x;
+}
