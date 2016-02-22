@@ -393,6 +393,7 @@ a:hover.canyu{  color: #02a9ff;}
 .container .centerleft .bar .fzuserzone .info1 span{ display: block }
 
 .container .centerleft .bar .fzuserzone .info2 { margin: 10px 0;padding: 10px 5px 10px 0;  color: #fff;font-size: 14px; height: 50px; border-top: 1px solid #fff; line-height: 25px; }
+.container .centerleft .bar .fzuserzone .info3{ float: left; width: 100px;}
 .buttonzone{ height: 30px; width: 100%; text-align: right; padding-top: 20px;}
 .buttonzone input[type=button]{ margin-left: 20px;}
 .tjzone{ height: 50px; font-size: 18px; text-align: center; line-height: 50px;  border-bottom: 1px solid #eeeeee;}
