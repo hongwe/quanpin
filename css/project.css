@@ -511,3 +511,8 @@ a:hover.canyu{  color: #02a9ff;}
 .xlist-a .tname{ font-size: 16px; color: #666; line-height: 40px; position: relative; }
 
 
+.xsilebox .shaixuan { width: 100%; height: 41px;  border-bottom: 1px #eeeeee solid; }
+.xsilebox .shaixuan a{ display: block;  padding: 0 30px; border-bottom: #eee 1px solid; color: #999999; font-size: 14px; line-height: 40px;}
+.xsilebox .shaixuan a:hover{border-bottom: #02a9ff 2px solid; background: #fff;  color: #333;}
+.xsilebox .shaixuan .on a{border-bottom: #02a9ff 2px solid; background: #fff;  color: #333;}
+.xsilebox .shaixuan .on a:hover{border-bottom: #02a9ff 2px solid; background: #fff;  color: #333;}
