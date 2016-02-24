@@ -15,4 +15,10 @@ $(function () {
 
 
     });
+
+});
+$(document).on('click', '.starpj li', function () {
+    $(this).siblings('.starpj li').removeClass('on')
+    $(this).prevAll('.starpj li').addClass('on')
+    $(this).addClass('on')
 });

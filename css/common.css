@@ -1946,6 +1946,9 @@ input[type=checkbox] {
 .posr {
     position: relative;
 }
+.posa {
+    position: absolute;
+}
 
 .top124 {
     height: 124px;
