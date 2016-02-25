@@ -97,6 +97,7 @@
 .pjtable02{ width: 1200px; font-size: 14px;}
 .pjtable03{ width: 802px; font-size: 14px;}
 .pjtable03b{ width: 802px; font-size: 14px;}
+.pjtable03c{ width: 762px; font-size: 14px;}
 .pjtable04{ width: 1160px; font-size: 14px;}
 .pjlista { width: 40%;  float: left; }
 .pjlistb { width: 20%; float: left; }
@@ -394,6 +395,23 @@ a:hover.canyu{  color: #02a9ff;}
 
 .container .centerleft .bar .fzuserzone .info2 { margin: 10px 0;padding: 10px 5px 10px 0;  color: #fff;font-size: 14px; height: 50px; border-top: 1px solid #fff; line-height: 25px; }
 .container .centerleft .bar .fzuserzone .info3{ float: left; width: 100px;}
+
+.container .centerleft .bar .glyzone{ padding: 20px; width: 262px; height: 140px;   background: url("../images/center/leftbg.png") no-repeat;text-shadow:1px 1px 1px #333; position: relative;}
+.container .centerleft .bar .glyzone .guanzhu{  position: absolute;  width: 85px; height: 25px;   right: 20px; bottom: 13px;}
+.container .centerleft .bar .glyzone .usertx{  float: left; overflow: hidden;  width: 90px; height: 140px; position: relative; }
+.container .centerleft .bar .glyzone .usertx img{ width: 90px; height: 90px; border-radius: 45px;}
+.container .centerleft .bar .glyzone .userwz { width: 132px; height:140px; float: left; }
+.container .centerleft .bar .glyzone .name{   margin-top: 1px; padding-left: 20px; width: 140px; color: #fff; font-size: 24px; line-height: 55px;}
+.container .centerleft .bar .glyzone hr{   margin-left: 20px; margin-bottom: 8px; height: 0px; border-bottom: 1px solid #fff;}
+.container .centerleft .bar .glyzone .info1 {  color: #fff; font-size: 14px; padding-left: 20px; line-height: 20px; }
+.container .centerleft .bar .glyzone .info1 a{ display: block; color: #fff; }
+.container .centerleft .bar .glyzone .info1 span{ display: block }
+
+
+
+
+
+
 .buttonzone{ height: 30px; width: 100%; text-align: right; padding-top: 20px;}
 .buttonzone input[type=button]{ margin-left: 20px;}
 .tjzone{ height: 50px; font-size: 18px; text-align: center; line-height: 50px;  border-bottom: 1px solid #eeeeee;}
@@ -480,6 +498,19 @@ a:hover.canyu{  color: #02a9ff;}
 .ta_calendar table{ width: auto;}
 .pjgroupinfo2 .info4{ width: 1120px; float: left;position: relative;}
 .pjgroupinfo2 .info4 textarea{ width: 1100px;  height: 120px; padding: 10px; border: 1px solid #ddd; border-radius: 3px;font-family:"Microsoft Yahei", sans-serif;}
+
+
+.pjgroupinfo3{ clear: both; min-height: 50px; width: 762px; float: left;  margin-bottom: 0;}
+.pjgroupinfo3 .info1{ width: 90px; float: left; font-size: 14px; line-height: 40px; text-align: right; padding-right: 20px;}
+.pjgroupinfo3 .info2{ width: 650px; float: left;position: relative;}
+.pjgroupinfo3 .info2 input[disabled="true"]{ margin-right: 10px; padding: 10px 10px;   height: 20px; border: 1px #e7e7e7 solid; border-radius: 2px; font-size: 16px; color: #999; width: 139px;}
+.pjgroupinfo3 .info3{ width: 650px; float: left;position: relative;}
+.pjgroupinfo3 .info2 textarea{ width: 500px;  height: 150px; padding: 10px; border: 1px solid #ddd; border-radius: 3px; font-family:"Microsoft Yahei", sans-serif;}
+.pjgroupinfo3 .info3 textarea{ width: 500px;  height: 90px; padding: 10px; border: 1px solid #ddd; border-radius: 3px;font-family:"Microsoft Yahei", sans-serif;}
+.pjgroupinfo3 .info3 input[type=text]{ padding: 10px 10px;   height: 20px; border: 1px #e7e7e7 solid; border-radius: 2px;}
+.pjgroupinfo3 .info4{ width: 762px; float: left;position: relative;}
+.pjgroupinfo3 .info4 textarea{ width: 700px;  height: 120px; padding: 10px; border: 1px solid #ddd; border-radius: 3px;font-family:"Microsoft Yahei", sans-serif;}
+.pjgroupinfo3 .allkcsx{ margin-top:5px;}
 .pjgroupinfo .shaixuan{}
 .pjgroupinfo .shaixuan a{ float: left; margin-right: 25px; margin-bottom: 10px;}
 .pjgroupinfo .shaixuan a{ display: block; padding: 9px 40px; font-size: 16px; color: #666; background: #fff; border: 1px solid #ddd; border-radius: 2px;}
@@ -518,3 +549,8 @@ a:hover.canyu{  color: #02a9ff;}
 .xsilebox .shaixuan a:hover{border-bottom: #02a9ff 2px solid; background: #fff;  color: #333;}
 .xsilebox .shaixuan .on a{border-bottom: #02a9ff 2px solid; background: #fff;  color: #333;}
 .xsilebox .shaixuan .on a:hover{border-bottom: #02a9ff 2px solid; background: #fff;  color: #333;}
+
+
+/**/
+.xqtjlist{ width: 100%;}
+.xqtjlist li{ width: 33%; text-align: center; padding: 50px 0;}
