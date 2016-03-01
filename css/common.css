@@ -4620,3 +4620,9 @@ table th div {
     height: 14px;
     background: url("../images/center/star.png") repeat-x;
 }
+
+.kechangbiao td{ width: 14.2%; padding: 0; line-height: 20px; vertical-align: top; }
+.kechangbiao .tz-a{ background: url("../images/xbimgaes/tz1.png") no-repeat right top; border: 1px solid #ff6d4f; padding: 2px; color:#ff6d4f; min-height: 80px;  height: 100%; background: #fff; }
+.kechangbiao .tz-b{ background: url("../images/xbimgaes/tz2.png") no-repeat right top; border: 1px solid #e170f5; padding: 2px; color:#e170f5; min-height: 80px; height: 100%;background: #fff;}
+.kechangbiao .tz-c{ background: url("../images/xbimgaes/tz3.png") no-repeat right top; border: 1px solid #02a9ff; padding: 2px; color:#02a9ff; min-height: 80px; height: 100%;background: #fff;}
+.kechangbiao .tz-d{ background: url("../images/xbimgaes/tz4.png") no-repeat right top; border: 1px solid #83d99b; padding: 2px; color:#83d99b; min-height: 80px; height: 100%;background: #fff;}

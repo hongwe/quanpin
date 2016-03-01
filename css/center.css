@@ -984,7 +984,7 @@
 
 .kechangbiao th{ background: #efedee; color: #999; text-align: center; font-weight: 700; }
 .kechangbiao td{ height: 80px;  position: relative;text-align: left; }
-.kechangbiao td .date { position: absolute;right: 0px; top:0px; width: 30px; height: 30px; text-align: center; line-height: 30px; border-radius: 15px; }
+.kechangbiao td .date { position: absolute;right: 0px; top:0px; width: 30px; height: 30px; text-align: center; line-height: 30px; border-radius: 15px; z-index: -1; }
 .kechangbiao td .kctip { color: #fff;}
 .kechangbiao .c1{ background: #ff6d4f; }
 .kechangbiao .c2{ background: #e170f5; }
