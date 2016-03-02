@@ -4620,9 +4620,10 @@ table th div {
     height: 14px;
     background: url("../images/center/star.png") repeat-x;
 }
-
+.kechangbiao .timezone th{ background: #fff; font-weight: 400; color: #333;}
+.kechangbiao .timezone th a{ color: #999;}
 .kechangbiao td{ width: 14.2%; padding: 0; line-height: 16px; vertical-align: top; }
-.kechangbiao td p{ margin-bottom: 5px; padding: 2px; max-height: 48px; overflow: hidden;}
+.kechangbiao td p{ margin-bottom: 2px; padding: 2px; max-height: 48px; overflow: hidden;}
 .kechangbiao .tz-a{background: #fff; border: 1px solid #ff6d4f;  padding: 0px; color:#ff6d4f; min-height: 80px;  height: 100%;  }
 .kechangbiao .tz-b{ background: #fff; border: 1px solid #e170f5; padding: 0px; color:#e170f5; min-height: 80px; height: 100%;}
 .kechangbiao .tz-c{ background: #fff; border: 1px solid #02a9ff; padding: 0px; color:#02a9ff; min-height: 80px; height: 100%;}
@@ -4635,6 +4636,7 @@ table th div {
 .kechangbiao .tz-b a{  color:#e170f5; }
 .kechangbiao .tz-c a{  color:#02a9ff; }
 .kechangbiao .tz-d a{  color:#83d99b; }
+.kechangbiao .kcb-a{background: #fff; border: 1px solid #fff;  padding: 0px; color:#333; min-height: 80px;  height: 100%;  }
 
 /*角色登录后区域*/
 .container .centerleft .bar .userzone{ padding: 20px; width: 262px; height: 230px;  text-shadow:1px 1px 1px #333; position: relative;}
