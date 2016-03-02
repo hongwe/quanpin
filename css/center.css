@@ -39,24 +39,7 @@
 .container .centerleft {float: left; padding-top: 20px; width: 397px;}
 .container .centerleft .bar {float: left; width: 302px; }
 .container .centerleft .bar02 {float: right; width: 302px; }
-.container .centerleft .bar .userzone{ padding: 20px; width: 262px; height: 230px;   background: url("../images/center/leftbg.png") no-repeat;text-shadow:1px 1px 1px #333; position: relative;}
-.container .centerleft .bar .userzone .guanzhu{  position: absolute;  width: 85px; height: 25px;   right: 20px; bottom: 13px;}
 
-.container .centerleft .bar .userzone .usertx{  float: left; overflow: hidden;  width: 90px; height: 90px; position: relative; }
-.container .centerleft .bar .userzone .usertx img{ width: 90px; height: 90px; border-radius: 45px;}
-.container .centerleft .bar .userzone .name{   float: left;  margin-top: 1px; padding-left: 20px; width: 140px; color: #fff; font-size: 24px; line-height: 55px;}
-.container .centerleft .bar .userzone .rzbox{   float: left; padding-left: 20px;width: 140px; color: #fff; font-size: 14px; line-height: 25px; }
-.container .centerleft .bar .userzone .rzbox .rzok{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02.png") no-repeat 0 0;}
-.container .centerleft .bar .userzone .rzbox .rzno{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02g.png") no-repeat 0 0;}
-.rzok{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02.png") no-repeat 0 0;}
-.rzno{  float: left;  display: block; margin-right: 5px;  width: 20px; height: 24px; background: url("../images/center/tag02g.png") no-repeat 0 0;}
-.container .centerleft .bar .userzone .info1 { margin: 10px 0 ;  color: #fff; font-size: 14px;}
-.container .centerleft .bar .userzone .info1 span{ padding: 0 5px;}
-.container .centerleft .bar .userzone .info2 { margin: 10px 0;padding: 0 5px 10px 0;  color: #fff;font-size: 14px; height: 60px; border-bottom: 1px solid #fff; }
-.container .centerleft .bar .userzone .info3 { margin: 10px 0 ;  color: #fff; font-size: 14px; padding-top: 5px;}
-.container .centerleft .bar .userzone .info3 span{ padding: 0 5px;}
-.container .centerleft .bar .userzone a{color: #fff;}
-.container .centerleft .bar .userzone a:hover{color: #ddd;}
 .container .centerleft .bar .qdzone{ margin: 25px 0; width: 302px; height: 75px;background: url("../images/center/qiandaobg2.png") no-repeat; color: #999999; text-align: center; padding-top: 15px; }
 .container .centerleft .bar .qdzone span{  display: block;line-height: 28px;}
 .container .centerleft .bar .qdzone .qdbtn{ width: 146px; float: left; margin-right: 10px;}
@@ -979,7 +962,7 @@
 
 
 .ksxbox{ width: 132px; height: 88px; border: 1px solid #ddd; float: left; margin:20px 13px; font-size: 16px; line-height: 40px;  padding-top: 10px; text-align: center;  border-radius: 3px; }
-.kechangbiaobox{ margin: 30px 0;}
+.kechangbiaobox{ margin: 10px 0;}
 .kechangbiao{}
 
 .kechangbiao th{ background: #efedee; color: #999; text-align: center; font-weight: 700; }

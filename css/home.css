@@ -18,7 +18,7 @@
 .navbox .nav .header_right .header_nav_common .header_nav_common_son a:hover { color: #ff4a00; }
 .bannerbox{background: url("../images/common/bg.jpg") no-repeat center ; height: 631px;  margin: auto; }
 .bannerbox .banner{ width: 1200px; margin: auto; position: relative;}
-.bannerbox .banner input[ type=text],.bannerbox .banner input[ type=password]{ width: 252px; height: 20px;  font-size: 20px; padding: 16px 50px;background: none;  }
+.bannerbox .banner input[ type=text],.bannerbox .banner input[ type=password]{ width: 252px; height: 24px;  font-size: 18px; padding: 14px 50px;background: none;  line-height: 24px; }
 
 .bannerbox .banner .inp01{ color: #fff;border-radius: 26px; }
 .bannerbox .banner .tag01{background: url("../images/common/tag01.png") no-repeat; display: block; width: 24px; height: 24px; position: absolute; top:15px; left: 15px;}
@@ -32,8 +32,8 @@
 
 
 
-.container .main .type-a{ background: #fff; min-height:300px; clear: both;  float: left;padding: 40px;}
-.container .main .type-b{ background: #f5f5f5; min-height:300px;clear: both;   float: left;padding: 40px;}
+.container .main .type-a{ background: #fff; min-height:220px; clear: both;  float: left;padding:40px 40px; position: relative; width: 1120px;}
+.container .main .type-b{ background: #f5f5f5; min-height:180px;clear: both;   float: left;padding:20px 40px;position: relative;width: 1120px;}
 .container .main .pic{ width:300px;}
 .container .main .wenb{ width: 690px; padding:0 40px; font-size: 14px; color: #959696;}
 .container .main .wenb p{ line-height: 28px;}
@@ -41,7 +41,7 @@
 .container .main .wenb h1 a{  color: #999;}
 .container .main .type-a .pic{ float: left;}
 .container .main .type-a .wenb{ float: right;}
-.container .main .type-b .pic{ float: right;}
+.container .main .type-b .pic{position: absolute;right: 40px; bottom: 30px;}
 .container .main .type-b .wenb{ float: left;}
 
 
