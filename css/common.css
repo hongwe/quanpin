@@ -2310,7 +2310,26 @@ input[type=checkbox] {
     background-color: white;
     box-shadow: 0 0 20px #333;
 }
-
+.kcbshow {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    z-index: 1002;
+    float: left;
+    display: none;
+    overflow: auto;
+    margin-left: -300px;
+    padding: 0;
+    width: 600px;
+    min-height: 200px;
+    outline: 0 none;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 20px #333;
+}
+.kcbshow .leftx{ float: left; width: 100px; font-size: 16px; line-height: 30px;}
+.kcbshow .rightx{ float: left; width: 460px;font-size: 16px;line-height: 30px;}
+.kcbshow .info1{ margin-bottom: 10px;}
 .mntbshow .mnTitle {
     position: relative;
     padding-left: 20px;
@@ -4711,3 +4730,10 @@ z-index: -2;}
 }
 
 .tzlist{ font-size: 14px; margin: 20px 0;}
+.kcde{ position: relative; height: 32px; display: block;}
+.kcbtool{ position: absolute; right: 2px; bottom: 0;}
+.btnck{ background: url("../images/xbimgaes/chakanA.png") no-repeat; width: 18px; height: 18px; border: none;}
+.btnck:hover{ background: url("../images/xbimgaes/chakanB.png") no-repeat; width: 18px; height: 18px; border: none;}
+
+.btnadd{ background: url("../images/xbimgaes/tianjiaA.png") no-repeat; width: 18px; height: 18px; border: none;}
+.btnadd:hover{ background: url("../images/xbimgaes/tianjiaB.png") no-repeat; width: 18px; height: 18px; border: none;}
