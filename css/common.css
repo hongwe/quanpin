@@ -1798,6 +1798,17 @@ input[type=checkbox] {
     right: 20px;
 
 }
+.uploadbox{padding: 0px;top: 20px;
+    right: 20px;
+    height: 136px;
+    width: 240px; border: 0px solid #ddd;
+position: absolute;}
+.uploadbox img{    height: 136px;
+    width: 240px;}
+}
+.uploadbox2{height: 100px; width: 100px; position: relative; float: left; margin-right: 20px; margin-bottom: 20px;}
+.uploadbox2 img{
+    width: 100px; height: 63px;}
 
 .b-upload input {
     position: absolute;
