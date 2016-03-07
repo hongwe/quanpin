@@ -1779,14 +1779,14 @@ input[type=checkbox] {
 }
 
 .b-upload {
-    padding: 25px;
-    height: 100px;
-    width: 100px;
+    padding: 0px;
+    height: 136px;
+    width: 240px;
 
     position: absolute;
     cursor: pointer;
     color: #fff;
-    background: url("../images/yxzx/b-up.png") no-repeat 25px 25px #ecf0f1;
+    background: url("../images/yxzx/b-up.png") no-repeat 70px 18px #ecf0f1;
     border: 0px solid #ddd;
     border-radius: 4px;
     overflow: hidden;
@@ -1981,6 +1981,11 @@ input[type=checkbox] {
 .posa {
     position: absolute;
 }
+.top72 {
+    height: 72px;
+    width: 100%;
+}
+
 
 .top124 {
     height: 124px;
@@ -4740,3 +4745,8 @@ z-index: -2;}
 .btnadd:hover{ background: url("../images/xbimgaes/tianjiaB.png") no-repeat; width: 18px; height: 18px; border: none;}
 .addtz{ background: url("../images/xbimgaes/add.png") no-repeat; width: 18px; height: 18px; border: none; position: absolute;right: -17px; top:10px;z-index: 10;}
 .addtz:hover{ background: url("../images/xbimgaes/addb.png") no-repeat; width: 18px; height: 18px; border: none;}
+
+.topboxdf{ background: url("../images/common/topbg.png") ; height: 72px; border-top: 1px solid #000; position: fixed; width: 100%; top:0; z-index: 300;}
+.topboxdf .top{ width: 1200px; margin: auto; position: relative;}
+.topboxdf .top img{ margin-top: 2px;}
+.topboxdf .top .login-t{ position: absolute; width: 142px; right: 0; top:10px; height: 24px;}df

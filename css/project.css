@@ -198,7 +198,8 @@ dd{ height: 45px; padding: 10px 5px; border-bottom: 1px dashed #eeeeee; line-hei
 .pjloginbox .tag02{background: url("../images/common/tag02.png") no-repeat;display: block; width: 24px; height: 24px; position: absolute; top:15px; left: 15px;}
 .pjloginbox input[ type=button]{  width: 166px; height: 50px; font-size: 14px; background: #02a9ff; border: none;}
 .pjloginbox input[ type=button]:hover{   background:#32b9ff; }
-
+.pjloginbox .tupic{ margin-top: 10px; }
+.pjloginbox .tupic img{ width: 360px; height: 243px; }
 
 
 .pjloginbox .userzone{ padding: 20px; width: 320px; height: 230px;  position: relative;}
