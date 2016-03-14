@@ -3722,7 +3722,7 @@ table th div {
     height: 14px;
     background: url("../images/center/star.png") repeat-x;
 }
-
+.pjxs-r{ position: absolute; right: -20px; top:-10px;}
 .upuser {
     margin-top: 10px;
 }
