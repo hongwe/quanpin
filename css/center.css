@@ -119,7 +119,7 @@
 .container .centermain {float: left; width: 802px;}
 
 .container .centermain .zonebox01{position: relative;float: left; margin-bottom: 25px; width: 802px; }
-.container .centermain .zonebox01 .lista{ margin: 10px 0;}
+.container .centermain .zonebox01 .lista{ margin: 10px 0; min-height: 120px;}
 .container .centermain .zonebox01 .lista li{ float: left;clear: both; margin:0 10px; border-bottom: 1px dashed #d9d9d9; font-size: 14px; line-height: 44px;}
 .container .centermain .zonebox01 .lista li .info1{float: left;overflow:hidden;   width: 710px;text-overflow:ellipsis;white-space: nowrap;}
 .container .centermain .zonebox01 .lista li .info1 a{  color: #333;}
@@ -128,7 +128,7 @@
 .container .centermain .zonebox01 .lista li .info2 a{  color: #d8271c;}
 
 
-.container .centermain .zonebox01 .listb{ margin: 10px 0;}
+.container .centermain .zonebox01 .listb{ margin: 10px 0; min-height: 120px;}
 .container .centermain .zonebox01 .listb li{ float: left;clear: both; margin:0 10px; border-bottom: 1px dashed #d9d9d9; font-size: 14px; line-height: 44px;}
 
 .container .centermain .zonebox01 .listb li .info1{float: left;overflow:hidden; margin-right: 30px;   width: 210px;text-overflow:ellipsis;white-space: nowrap;}
@@ -150,7 +150,7 @@
 .container .centermain .zonebox01 .xktit01{ clear: both; margin-top: 30px;height: 43px; border-bottom: 1px solid #ffe4e4; background: url("../images/center/kcbg.png") no-repeat 0 0; color: #333; text-align: center; font-size: 18px;line-height: 42px;}
 .container .centermain .zonebox01 .xktit02{clear: both;margin-top: 30px;height: 43px; border-bottom: 1px solid #d5effd; background: url("../images/center/kcbg.png") no-repeat 0 -43px;color: #333; text-align: center;font-size: 18px;line-height: 42px;}
 .container .centermain .zonebox01 .xktit03{clear: both;margin-top: 30px;height: 43px;border-bottom: 1px solid #e8c8f1; background: url("../images/center/kcbg.png") no-repeat 0 -86px;color: #333; text-align: center;font-size: 18px; line-height: 42px;}
-.container .centermain .zonebox01 .listc{ margin: 10px 0;}
+.container .centermain .zonebox01 .listc{ margin: 10px 0; min-height: 120px;}
 .container .centermain .zonebox01 .listc li{ float: left;clear: both; margin:0 10px; border-bottom: 1px dashed #d9d9d9; font-size: 14px; line-height: 44px;}
 .container .centermain .zonebox01 .listc li .info1{float: left;overflow:hidden; margin-right: 30px;   width: 230px;text-overflow:ellipsis;white-space: nowrap;}
 .container .centermain .zonebox01 .listc li .info1 a{  color: #333;}
@@ -170,7 +170,7 @@
 
 
 
-.container .centermain .zonebox01 .liste{ margin: 10px 0;}
+.container .centermain .zonebox01 .liste{ margin: 10px 0; min-height: 120px;}
 .container .centermain .zonebox01 .liste li{ float: left;clear: both; margin:0 10px; border-bottom: 1px dashed #d9d9d9; font-size: 14px; line-height: 44px;}
 .container .centermain .zonebox01 .liste li .info1{float: left;overflow:hidden; margin-right: 30px;   width: 230px;text-overflow:ellipsis;white-space: nowrap;}
 .container .centermain .zonebox01 .liste li .info1 a{  color: #333;}
@@ -185,7 +185,7 @@
 .container .centermain .zonebox01 .liste li .info6 a:hover{  color: #999;}
 
 
-.container .centermain .zonebox01 .listd{ margin: 10px 0;}
+.container .centermain .zonebox01 .listd{ margin: 10px 0; min-height: 120px;}
 .container .centermain .zonebox01 .listd li{ float: left;clear: both; margin:0 10px; border-bottom: 1px dashed #d9d9d9; font-size: 14px; line-height: 44px;}
 .container .centermain .zonebox01 .listd li .info1{float: left;overflow:hidden; margin-right: 30px;   width: 350px;text-overflow:ellipsis;white-space: nowrap;}
 .container .centermain .zonebox01 .listd li .info1 a{  color: #333;}
@@ -195,7 +195,7 @@
 .container .centermain .zonebox01 .listd li .info2 a:hover{  color: #999;}
 .container .centermain .zonebox01 .listd li .info3{float: left;overflow:hidden;margin-right: 10px;   width: 80px; text-align: right;text-overflow:ellipsis;white-space: nowrap;}
 
-.container .centermain .zonebox01 .listf{ margin: 30px 0;}
+.container .centermain .zonebox01 .listf{ margin: 30px 0; min-height: 120px;}
 .container .centermain .zonebox01 .listf a{ color: #666;}
 .container .centermain .zonebox01 .listf a:hover{ color: #999;}
 .container .centermain .zonebox01 .listf li{ margin: 0 11px;}
@@ -215,7 +215,7 @@
 .container .centermain .zonebox01 .listg li .info6 a{  color: #333;}
 .container .centermain .zonebox01 .listg li .info6 a:hover{  color: #999;}
 
-.container .centermain .zonebox01 .listh{ margin: 10px 0;}
+.container .centermain .zonebox01 .listh{ margin: 10px 0; min-height: 120px;}
 .container .centermain .zonebox01 .listh li{ float: left;clear: both; margin:0 10px; border-bottom: 1px dashed #d9d9d9; font-size: 14px; line-height: 44px;}
 .container .centermain .zonebox01 .listh li .info1{float: left;overflow:hidden;   width: 660px;text-overflow:ellipsis;white-space: nowrap;}
 .container .centermain .zonebox01 .listh li .info1 a{  color: #333;}
@@ -224,7 +224,7 @@
 .container .centermain .zonebox01 .listh li .info2 a{  color: #999;}
 
 
-.container .centermain .zonebox01 .listi{ margin: 10px 0;}
+.container .centermain .zonebox01 .listi{ margin: 10px 0; min-height: 120px;}
 .container .centermain .zonebox01 .listi li{ float: left;clear: both; margin:0 10px; border-bottom: 1px dashed #d9d9d9; font-size: 14px; line-height: 44px;}
 .container .centermain .zonebox01 .listi li .info1{float: left;overflow:hidden;   width: 230px;text-overflow:ellipsis;white-space: nowrap;}
 .container .centermain .zonebox01 .listi li .info1 a{  color: #333;}
