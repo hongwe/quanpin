@@ -347,3 +347,21 @@ $(document).on('click', '.zhankai', function () {
 
 
 });
+$(document).on('click', '.zhankai02', function () {
+
+    $(this).removeClass('zhankai02');
+    $(this).addClass('zhankai');
+    $(this).parent().find('.buzhounr').slideUp(200);
+    $(this).attr('title','展开');
+
+
+});
+$(document).on('click', '.zhankai', function () {
+
+    $(this).removeClass('zhankai');
+    $(this).addClass('zhankai02');
+    $(this).parent().find('.buzhounr').slideDown(200);
+    $(this).attr('title','收起');
+
+
+});

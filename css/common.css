@@ -3502,19 +3502,19 @@ table th div {
     color: #999;
     float: left;
     width: 220px;
-    line-height: 15px;
+    line-height: 20px;
+    overflow: hidden;
+    height: 40px;
 }
 
 .main .boxzone01 .wenbbox06 .zjlist .zjinfo {
     background: url("../images/aaa.png") no-repeat 0 -2px #f4f5f7;
-    position: absolute;
-    width: 250px;
+    width: 290px;
     display: none;
-    z-index: 100;
-    top: 90px;
-    padding: 20px;
+    padding: 10px 0;
     line-height: 25px;
     font-size: 14px;
+    color: #999;
 }
 
 .main .boxzone01 .wenbbox06 .xgkclist {

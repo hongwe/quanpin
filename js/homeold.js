@@ -9,17 +9,15 @@ function afterText() {
     $(".addzone:last").after(txt1);
 }
 $(document).on('click', '.del01', function () {
-	nums = $(".addzone").length;
     $(this).parent().remove();
-    $("#add").show();
 });
 $(function () {
-    //$(".zjtx").hover(function () {
-    //
-    //    $(this).siblings('.zjinfo').toggle()
-    //
-    //
-    //});
+    $(".zjtx").hover(function () {
+
+        $(this).siblings('.zjinfo').toggle()
+
+
+    });
     $(".tagupdown").hover(function () {
 
         $(this).find('.udlist').toggle()
@@ -70,27 +68,10 @@ $(function () {
 
     });
     $(document).on('click', '.shousuo2', function () {
-        $(this).prev('.notenr').css('display', "block");
+        $(this).prev('.notenr').css('height', "60px");
         $(this).removeClass('shousuo2')
         $(this).html('查看全文')
     });
-
-
-    $(document).on('click', '.shousuo-l', function () {
-        $(this).prev('.zjinfo').css('display', "block");
-        $(this).addClass('shousuo-l2')
-        $(this).html('收起简介')
-
-    });
-    $(document).on('click', '.shousuo-l2', function () {
-        $(this).prev('.zjinfo').css('display', "none");
-        $(this).removeClass('shousuo-l2')
-        $(this).html('查看简介')
-    });
-
-
-
-
 
     $(document).on('click', '.kcseacher01 li', function () {
         $('.kcseacher01 li').removeClass('on')
