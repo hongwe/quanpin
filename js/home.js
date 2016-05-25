@@ -65,26 +65,26 @@ $(function () {
 
     $(document).on('click', '.shousuo', function () {
         $(this).prev('.notenr').css('height', "auto");
-        $(this).addClass('shousuo2')
-        $(this).html('收缩全文')
+        $(this).addClass('shousuo2');
+        $(this).html('收缩全文');
 
     });
     $(document).on('click', '.shousuo2', function () {
         $(this).prev('.notenr').css('display', "block");
-        $(this).removeClass('shousuo2')
-        $(this).html('查看全文')
+        $(this).removeClass('shousuo2');
+        $(this).html('查看全文');
     });
 
 
     $(document).on('click', '.shousuo-l', function () {
         $(this).prev('.zjinfo').css('display', "block");
-        $(this).addClass('shousuo-l2')
-        $(this).html('收起简介')
+        $(this).addClass('shousuo-l2');
+        $(this).html('收起简介');
 
     });
     $(document).on('click', '.shousuo-l2', function () {
         $(this).prev('.zjinfo').css('display', "none");
-        $(this).removeClass('shousuo-l2')
+        $(this).removeClass('shousuo-l2');
         $(this).html('查看简介')
     });
 
@@ -93,13 +93,13 @@ $(function () {
 
 
     $(document).on('click', '.kcseacher01 li', function () {
-        $('.kcseacher01 li').removeClass('on')
+        $('.kcseacher01 li').removeClass('on');
         $(this).addClass('on')
 
 
     });
     $(document).on('click', '.shaixuan li', function () {
-        $('.shaixuan li').removeClass('on')
+        $('.shaixuan li').removeClass('on');
         $(this).addClass('on')
 
 
@@ -107,8 +107,8 @@ $(function () {
 
     $(".sj03").hover(function () {
 
-        $(this).find('.jiathisbox').toggle()
-        $(this).find('.sjbg').toggle()
+        $(this).find('.jiathisbox').toggle();
+        $(this).find('.sjbg').toggle();
 
 
     });
@@ -157,8 +157,22 @@ $(document).on('click', '.shoucbtned', function () {
 });
 $(document).on('click', '.allkcsx li', function () {
 
-    $(this).parent().find('li').removeClass('on')
-    $(this).addClass('on')
+    $(this).parent().find('li').removeClass('on');
+    $(this).addClass('on');
+
+
+});
+$(document).on('click', '.mkapp', function () {
+
+    $('.mklist').toggle();
+
+
+
+});
+$(document).on('click', '.mkclose', function () {
+
+    $('.xmmkbox').hide();
+
 
 
 });
