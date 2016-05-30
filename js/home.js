@@ -172,6 +172,15 @@ $(document).on('click', '.mkapp', function () {
 $(document).on('click', '.mkclose', function () {
 
     $('.xmmkbox').hide();
+    $('.xmmkbox-b').show();
+
+
+
+});
+$(document).on('click', '.mkopen', function () {
+    $('.xmmkbox-b').hide();
+
+    $('.xmmkbox').toggle();
 
 
 

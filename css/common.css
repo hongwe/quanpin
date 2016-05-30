@@ -4764,10 +4764,12 @@ z-index: -2;}
 
 .zhanwu{ font-size: 30px; color: #ddd; background: url("../images/project/xiaolian.png") no-repeat;  margin-left: 100px; padding-left: 65px; margin-top: 60px; line-height: 80px; height: 120px;}
 
-.xmmkbox{ position: fixed;right: 0; top:125px; background: url("../images/mk.png") no-repeat right top; width: 577px; height: 501px;}
+.xmmkbox{ position: fixed;right: 0; top:125px; background: url("../images/mk.png") no-repeat right top; width: 577px; height: 501px;display: none;}
+.xmmkbox-b{ position: fixed;right: 0; top:125px; background: url("../images/mk2.png") no-repeat right top; width: 577px; height: 501px;}
 .mklist{ width: 300px; background: url("../images/mk04.png") repeat-y; min-height: 100px; margin-top: 30px; border-radius:5px; display: none;}
 .mklist a{ color: #333;}
 .mklist li {float: none; line-height: 30px; padding: 20px 10px; background: url("../images/mk02.png") no-repeat 10px 30px; margin-left: 0px; text-indent: 30px; font-size: 16px; }
 .mklist li:hover{background: url("../images/mk01.png") no-repeat 10px 30px #ddd; border-radius:5px; font-size: 18px;}
 .mkclose { width: 40px; height: 40px; position: absolute;right: 30px;top:182px;  cursor: pointer;}
+.mkopen { width: 40px; height: 40px; position: absolute;right: 25px;top:130px;  cursor: pointer;}
 .mkapp { width: 140px; height: 80px; position: absolute;right: 65px;top:222px; cursor: pointer;}
